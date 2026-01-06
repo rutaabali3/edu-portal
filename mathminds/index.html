@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathMinds - Free Math Learning Aids</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./images/mathminds.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/mathminds.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-calculator"></i> MathMinds</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#comparison">Comparison</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 data-aos="fade-down">Math Made Magical</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Demystify math with free tools for all ages. From graphing calculators to interactive games, unlock the joy of numbers.</p>
+            <div data-aos="fade-up" data-aos-delay="400">
+                <a href="#tools" class="btn btn-primary btn-lg me-2">Explore Tools</a>
+                <a href="#comparison" class="btn btn-outline-primary btn-lg">Compare Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="section">
+        <div class="container">
+            <h2 class="section-title">Popular Math Tools</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Desmos</h4>
+                        <p>Interactive graphing calculator for exploring functions, inequalities, and data visualization.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Graphing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-drafting-compass"></i></div>
+                        <h4>GeoGebra</h4>
+                        <p>Dynamic math software for geometry, algebra, calculus, and 3D modeling.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web & Desktop</span>
+                            <span class="badge bg-info">Geometry</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-search"></i></div>
+                        <h4>Wolfram Alpha</h4>
+                        <p>Computational knowledge engine for solving equations, plotting, and step-by-step explanations.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free Tier</span>
+                            <span class="badge bg-secondary">Web & Mobile</span>
+                            <span class="badge bg-info">Calculus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 mt-2">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-gamepad"></i></div>
+                        <h4>Prodigy</h4>
+                        <p>Game-based learning platform with adaptive math challenges for K-8 students.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web & Mobile</span>
+                            <span class="badge bg-info">Games</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-robot"></i></div>
+                        <h4>Mathway</h4>
+                        <p>AI-powered solver for algebra, calculus, and statistics with instant solutions.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free Tier</span>
+                            <span class="badge bg-secondary">Web & Mobile</span>
+                            <span class="badge bg-info">Solver</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-book"></i></div>
+                        <h4>Khan Academy Math</h4>
+                        <p>Comprehensive video lessons and exercises covering arithmetic to advanced math.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web & Mobile</span>
+                            <span class="badge bg-info">Lessons</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Key Math Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Graphing Calculators</h4>
+                        <p>Visualize equations and data trends with interactive sliders and animations.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-drafting-compass"></i></div>
+                        <h4>Geometry Builders</h4>
+                        <p>Construct shapes, measure angles, and explore theorems dynamically.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-divide"></i></div>
+                        <h4>Fraction Visualizers</h4>
+                        <p>Understand fractions, decimals, and ratios through pie charts and number lines.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 mt-2">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-puzzle-piece"></i></div>
+                        <h4>Puzzle Games</h4>
+                        <p>Solve math riddles and challenges to reinforce concepts playfully.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-brain"></i></div>
+                        <h4>AI Tutors</h4>
+                        <p>Get personalized hints and explanations for stuck problems.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-step-forward"></i></div>
+                        <h4>Step-by-Step Solutions</h4>
+                        <p>Break down complex problems with detailed walkthroughs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spotlight Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Try Desmos</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3>Interactive Graphing Powerhouse</h3>
+                    <p>Desmos is the go-to free tool for millions, turning abstract math into visual adventures. It's perfect for students exploring functions without needing downloads.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Graph functions, inequalities, and tables</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Sliders for real-time parameter changes</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Shareable activities and classroom tools</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Supports geometry and statistics</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Completely free with no ads</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="p-4 bg-white rounded shadow">
+                        <div class="mb-4">
+                            <a href="https://www.desmos.com/calculator" target="_blank" class="btn btn-primary">Try Desmos Now</a>
+                        </div>
+                        <p class="text-muted small">Desmos is free for all users. Premium features like advanced classroom management are available for educators.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section id="comparison" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Math Tools Comparison</h2>
+            <p class="text-center mb-5">Compare the top tools to find the best for your math needs</p>
+            <div class="table-responsive" data-aos="fade-up">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Tool</th>
+                            <th>Topics</th>
+                            <th>Pricing</th>
+                            <th>Platforms</th>
+                            <th>Special Features</th>
+                            <th>Best For</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Desmos</strong></td>
+                            <td>Algebra, Geometry</td>
+                            <td>Free</td>
+                            <td>Web</td>
+                            <td>Interactive graphs, sliders</td>
+                            <td>Visualization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>GeoGebra</strong></td>
+                            <td>Geometry, Calculus</td>
+                            <td>Free</td>
+                            <td>Web & Desktop</td>
+                            <td>Dynamic constructions, 3D</td>
+                            <td>Exploration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Wolfram Alpha</strong></td>
+                            <td>Calculus, Stats</td>
+                            <td>Free Tier</td>
+                            <td>Web & Mobile</td>
+                            <td>Step-by-step solutions, computations</td>
+                            <td>Problem-solving</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Prodigy</strong></td>
+                            <td>Arithmetic, Fractions</td>
+                            <td>Free</td>
+                            <td>Web & Mobile</td>
+                            <td>Adaptive games, rewards</td>
+                            <td>Kids learning</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mathway</strong></td>
+                            <td>Algebra, Trig</td>
+                            <td>Free Tier</td>
+                            <td>Web & Mobile</td>
+                            <td>AI snapping, instant answers</td>
+                            <td>Quick help</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Khan Academy Math</strong></td>
+                            <td>All Levels</td>
+                            <td>Free</td>
+                            <td>Web & Mobile</td>
+                            <td>Videos, exercises, mastery tracking</td>
+                            <td>Structured courses</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="text-center mb-5">Get answers to common questions about math tools</p>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Is Desmos free for students?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, Desmos is completely free for all users, including students and teachers, with no premium features required for core functionality.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Which tool is best for beginners?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Prodigy and Khan Academy Math are ideal for beginners with engaging games and step-by-step videos tailored to foundational skills.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Can I use these tools offline?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            GeoGebra offers offline desktop apps, while Desmos and Wolfram Alpha require internet. Khan Academy has limited offline video downloads.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            Are there tools for advanced math?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Wolfram Alpha and GeoGebra excel in advanced topics like calculus and 3D geometry with computational power and simulations.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            How do games like Prodigy help learning?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            They make math fun through adaptive challenges and rewards, improving retention and engagement without feeling like traditional homework.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="text-center mb-5">Have questions about math tools? We're here to help!</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form class="p-4 p-md-5 bg-white rounded shadow" data-aos="fade-up">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Subject</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">MathMinds</h5>
+                    <p>Your free guide to math learning aids in 2025.</p>
+                    <div class="social-links mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">Popular Math Tools</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://www.desmos.com/calculator">Desmos</a></li>
+                        <li><a href="https://www.geogebra.org/">GeoGebra</a></li>
+                        <li><a href="https://www.wolframalpha.com/">Wolfram Alpha</a></li>
+                        <li><a href="https://www.prodigygame.com/">Prodigy</a></li>
+                        <li><a href="https://www.mathway.com/">Mathway</a></li>
+                        <li><a href="https://www.khanacademy.org/math">Khan Academy Math</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#comparison">Comparison</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Newsletter</h5>
+                    <p>Subscribe for updates on free math tools.</p>
+                    <div class="footer-newsletter mt-4">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email" required>
+                        </div>
+                        <div class="input-group mt-4">
+                            <button class="btn" type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <div class="row">
+                    <div class="col-md-6 text-md-start mb-3 mb-md-0">
+                        <p>&copy; 2025 MathMinds. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="./pages/privacy-policy.html" class="text-light me-3">Privacy Policy</a>
+                        <a href="./pages/terms-of-service.html" class="text-light me-3">Terms of Service</a>
+                        <a href="./pages/cookie-policy.html" class="text-light">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="./javascript/mathminds.js"></script>
+</body>
+
+</html>

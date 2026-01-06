@@ -1,0 +1,77 @@
+
+   :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #10b981;
+            --secondary-dark: #0d9668;
+            --accent: #f59e0b;
+            --dark: #1e293b;
+            --darker: #0f172a;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --gradient: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            --gradient-dark: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
+        }
+
+    body {
+      background: var(--light);
+      font-family: "Segoe UI", Roboto, sans-serif;
+      color: var(--dark);
+      line-height: 1.8;
+      padding-top: 4rem;
+    }
+
+    .container {
+      max-width: 950px;
+    }
+
+    .card {
+      border-radius: 16px;
+      border: none;
+      background: white;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      padding: 2rem;
+    }
+
+    h1, h2, h3 {
+      color: var(--primary-dark);
+      font-weight: 600;
+      margin-top: 1.5rem;
+    }
+
+    h1 {
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 2.4rem;
+    }
+
+    p, li {
+      color: var(--dark);
+    }
+
+    .section-icon {
+      color: var(--primary);
+      margin-right: .5rem;
+    }
+
+    .back-btn {
+      margin-bottom: 2rem;
+      background: var(--gradient);
+      color: white;
+      border: none;
+      padding: .6rem 1.2rem;
+      border-radius: 30px;
+      font-weight: 500;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
+    }
+    .back-btn:hover {
+      background: var(--gradient-dark);
+      transform: translateY(-2px);
+      color: white;
+    }
+    .back-btn:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(30, 165, 175, 0.5);
+    }

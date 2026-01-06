@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCrafter - Free Coding Collaboration Tools</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./images/codecrafter.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/codecrafter.css">
+</head>
+
+<body>
+
+    <!-- nav  -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-code"></i> CodeCrafter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#comparison">Comparison</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 data-aos="fade-down">Code Together, Build Better</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Discover the best free coding collaboration tools to
+                create projects with your team effortlessly.</p>
+            <div data-aos="fade-up" data-aos-delay="400">
+                <a href="#tools" class="btn btn-primary btn-lg m-2">Explore Tools</a>
+                <a href="#comparison" class="btn btn-outline-primary btn-lg">Compare Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- tools -->
+    <section id="tools" class="section">
+        <div class="container">
+            <h2 class="section-title">Popular Coding Tools</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-code"></i></div>
+                        <h4>Replit</h4>
+                        <p>Cloud-based IDE supporting 50+ languages with real-time team coding and hosting.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">50+ Languages</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h4>CodeSandbox</h4>
+                        <p>Web-focused IDE for JavaScript, React, and Vue with instant previews and team sharing.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Web Dev</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fab fa-github"></i></div>
+                        <h4>GitPod</h4>
+                        <p>GitHub-integrated cloud IDE for automated dev environments and team collaboration.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free Tier</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Most Languages</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-bolt"></i></div>
+                        <h4>Glitch</h4>
+                        <p>Rapid prototyping platform for web apps with easy sharing and remixing.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Web Apps</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-users"></i></div>
+                        <h4>Liveblocks</h4>
+                        <p>API for adding real-time collaboration features to your apps, like live cursors.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free Tier</span>
+                            <span class="badge bg-secondary">API</span>
+                            <span class="badge bg-info">Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-cubes"></i></div>
+                        <h4>StackBlitz</h4>
+                        <p>Browser-based IDE for web dev with fast setup and team sharing.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Web Dev</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features  -->
+    <section id="features" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Key Collaboration Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-edit"></i></div>
+                        <h4>Real-Time Editing</h4>
+                        <p>Code simultaneously with your team, seeing changes instantly.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fab fa-github"></i></div>
+                        <h4>GitHub Integration</h4>
+                        <p>Connect projects to GitHub for version control and team syncing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-link"></i></div>
+                        <h4>Shareable Links</h4>
+                        <p>Share projects via URLs for instant team access.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-terminal"></i></div>
+                        <h4>Built-In Terminals</h4>
+                        <p>Run commands directly in the browser for quick testing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-comments"></i></div>
+                        <h4>Team Chat</h4>
+                        <p>Communicate with your team within the platform.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-file-code"></i></div>
+                        <h4>Project Templates</h4>
+                        <p>Start with pre-built templates for faster setup.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- try -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Try Replit</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3>Most Popular Coding Platform</h3>
+                    <p>Replit is the go-to free tool for millions, supporting 50+ languages with real-time collaboration
+                        and hosting. Perfect for students and teams.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Code in 50+ languages</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Real-time team coding</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Free hosting for projects</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Built-in package manager</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Community-driven templates</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="p-4 bg-white rounded shadow">
+                        <div class="mb-4">
+                            <a href="https://replit.com" target="_blank" class="btn btn-primary">Try Replit Now</a>
+                        </div>
+                        <p class="text-muted small">Replit is free for basic use and ideal for beginners. For advanced
+                            features, check their paid plans.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- comparison table  -->
+    <section id="comparison" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Tool Comparison</h2>
+            <p class="text-center mb-5">Compare top coding tools to find the best for your team</p>
+            <div class="table-responsive" data-aos="fade-up">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Tool</th>
+                            <th>Languages</th>
+                            <th>Pricing</th>
+                            <th>Setup Ease</th>
+                            <th>Special Features</th>
+                            <th>Best For</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Replit</strong></td>
+                            <td>50+</td>
+                            <td>Free</td>
+                            <td>Very Easy</td>
+                            <td>Real-time coding, hosting</td>
+                            <td>Students, teams</td>
+                        </tr>
+                        <tr>
+                            <td><strong>CodeSandbox</strong></td>
+                            <td>Web (JS, HTML)</td>
+                            <td>Free</td>
+                            <td>Easy</td>
+                            <td>Instant previews, sandboxes</td>
+                            <td>Web dev</td>
+                        </tr>
+                        <tr>
+                            <td><strong>GitPod</strong></td>
+                            <td>Most</td>
+                            <td>Free Tier</td>
+                            <td>Moderate</td>
+                            <td>GitHub integration, workspaces</td>
+                            <td>Large projects</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Glitch</strong></td>
+                            <td>Web (JS, Node)</td>
+                            <td>Free</td>
+                            <td>Easy</td>
+                            <td>Rapid prototyping, remixing</td>
+                            <td>Quick apps</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Liveblocks</strong></td>
+                            <td>JS-based</td>
+                            <td>Free Tier</td>
+                            <td>Moderate</td>
+                            <td>Live cursors, comments</td>
+                            <td>App integration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>StackBlitz</strong></td>
+                            <td>Web (JS, React)</td>
+                            <td>Free</td>
+                            <td>Easy</td>
+                            <td>Fast setup, sharing</td>
+                            <td>Web dev</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- faq  -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="text-center mb-5">Get answers to common questions about coding tools</p>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Is Replit completely free to use?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, Replit is free for basic use with no limits on projects. Paid plans offer more storage
+                            and private repls.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq2">
+                            Which tool is best for beginners?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Replit and CodeSandbox are great for beginners due to their easy setup and no-install web
+                            interface.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq3">
+                            Can I use these tools offline?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Most tools (Replit, CodeSandbox, Glitch, StackBlitz) are web-based and require internet.
+                            GitPod offers some offline capabilities with local setups.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq4">
+                            How do I integrate with GitHub?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            GitPod and CodeSandbox offer direct GitHub integration. Connect your account and import
+                            repos in one click.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq5">
+                            Are these tools good for team projects?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, all tools support team collaboration with features like live editing, shared links, and
+                            chat.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact   -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="text-center mb-5">Have questions about coding tools? We're here to help!</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="p-4 p-md-5 bg-white rounded shadow" data-aos="fade-up">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Subject</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">DataLearn</h5>
+                    <p>Your free guide to data science tools and learning resources in 2025.</p>
+                    <div class="social-links mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">Platforms</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://colab.research.google.com">Google Colab</a></li>
+                        <li><a href="https://www.kaggle.com">Kaggle</a></li>
+                        <li><a href="https://jupyter.org">Jupyter Notebook</a></li>
+                        <li><a href="https://orangedatamining.com">Orange</a></li>
+                        <li><a href="https://rapidminer.com">RapidMiner</a></li>
+                        <li><a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#comparison">Comparison</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Newsletter</h5>
+                    <p>Subscribe for updates on free data science tools.</p>
+                    <div class="footer-newsletter mt-4">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email" required>
+                        </div>
+                        <div class="input-group mt-4">
+                            <button class="btn" type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <div class="row">
+                    <div class="col-md-6 text-md-start mb-3 mb-md-0">
+                        <p>&copy; 2025 DataLearn. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="./pages/privacy-policy.html" class="text-light me-3">Privacy Policy</a>
+                        <a href="./pages/terms-of-service.html" class="text-light me-3">Terms of Service</a>
+                        <a href="./pages/cookie-policy.html" class="text-light">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./javascript/codecrafter.js"></script>
+</body>
+
+</html>

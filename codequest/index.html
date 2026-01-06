@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest - Free Coding Resources for Beginners</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./images/codequst.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/codequest.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-code"></i> CodeQuest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tools">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#comparison">Comparison</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 data-aos="fade-down">Unlock Code Mastery</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Kickstart your coding journey with free resources, tutorials, and challenges. No signup needed—dive in and build your first app today.</p>
+            <div data-aos="fade-up" data-aos-delay="400">
+                <a href="#tools" class="btn btn-primary btn-lg me-2">Explore Resources</a>
+                <a href="#comparison" class="btn btn-outline-primary btn-lg">Compare Platforms</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="section">
+        <div class="container">
+            <h2 class="section-title">Popular Coding Resources</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h4>freeCodeCamp</h4>
+                        <p>Interactive curriculum with certifications in web development, data science, and more.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Full-Stack</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h4>Codecademy</h4>
+                        <p>Hands-on coding lessons in Python, JavaScript, and SQL with free basic tracks.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free Tier</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Languages</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-cloud"></i></div>
+                        <h4>Replit</h4>
+                        <p>Online IDE for collaborative coding in 50+ languages with instant sharing.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 mt-2">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fab fa-github"></i></div>
+                        <h4>GitHub Codespaces</h4>
+                        <p>Cloud-based dev environments with free hours for beginners to code anywhere.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free Tier</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Dev Env</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-puzzle-piece"></i></div>
+                        <h4>LeetCode</h4>
+                        <p>Practice coding interviews with free problems, solutions, and mock assessments.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Interviews</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tool-card">
+                        <div class="tool-icon"><i class="fas fa-book"></i></div>
+                        <h4>MDN Web Docs</h4>
+                        <p>Comprehensive guides and tutorials for web technologies from Mozilla.</p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary">Free</span>
+                            <span class="badge bg-secondary">Web</span>
+                            <span class="badge bg-info">Web Dev</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Key Coding Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <h4>Interactive Challenges</h4>
+                        <p>Solve real problems with instant feedback and hints to build confidence.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-folder-open"></i></div>
+                        <h4>Project Templates</h4>
+                        <p>Start with ready-made code for websites, apps, and games.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-users"></i></div>
+                        <h4>Community Forums</h4>
+                        <p>Ask questions and collaborate with millions of learners worldwide.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 mt-2">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Progress Trackers</h4>
+                        <p>Monitor your skill growth with badges and completion stats.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-code-branch"></i></div>
+                        <h4>Version Control Intro</h4>
+                        <p>Learn Git basics integrated into platforms for team projects.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-laptop"></i></div>
+                        <h4>Cloud IDEs</h4>
+                        <p>Code in the browser without setup—perfect for beginners.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spotlight Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Try freeCodeCamp</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3>Non-Profit Coding Bootcamp</h3>
+                    <p>freeCodeCamp has helped millions land developer jobs with its free, project-based curriculum. Earn certifications that stand out on resumes.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>3,000+ hours of interactive content</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Certifications in web dev, data viz, ML</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Build 30+ portfolio projects</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Global community and job board</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>100% free, open-source</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="p-4 bg-white rounded shadow">
+                        <div class="mb-4">
+                            <a href="https://www.freecodecamp.org/" target="_blank" class="btn btn-primary">Try freeCodeCamp Now</a>
+                        </div>
+                        <p class="text-muted small">freeCodeCamp is entirely free with no ads or paywalls. Donations keep it running for everyone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section id="comparison" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Resource Comparison</h2>
+            <p class="text-center mb-5">Compare top coding platforms to find your ideal starting point</p>
+            <div class="table-responsive" data-aos="fade-up">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Resource</th>
+                            <th>Focus</th>
+                            <th>Pricing</th>
+                            <th>Offline</th>
+                            <th>Special Features</th>
+                            <th>Best For</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>freeCodeCamp</strong></td>
+                            <td>Full-Stack Dev</td>
+                            <td>Free</td>
+                            <td>No</td>
+                            <td>Projects, certifications</td>
+                            <td>Job seekers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Codecademy</strong></td>
+                            <td>Languages</td>
+                            <td>Free Tier</td>
+                            <td>No</td>
+                            <td>Interactive lessons, quizzes</td>
+                            <td>Quick starts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Replit</strong></td>
+                            <td>Collaboration</td>
+                            <td>Free</td>
+                            <td>No</td>
+                            <td>Cloud IDE, sharing</td>
+                            <td>Team coding</td>
+                        </tr>
+                        <tr>
+                            <td><strong>GitHub Codespaces</strong></td>
+                            <td>Dev Environments</td>
+                            <td>Free Tier</td>
+                            <td>No</td>
+                            <td>Git integration, VS Code</td>
+                            <td>Advanced setup</td>
+                        </tr>
+                        <tr>
+                            <td><strong>LeetCode</strong></td>
+                            <td>Interviews</td>
+                            <td>Free</td>
+                            <td>Partial</td>
+                            <td>Problems, discussions</td>
+                            <td>Tech interviews</td>
+                        </tr>
+                        <tr>
+                            <td><strong>MDN Web Docs</strong></td>
+                            <td>Web Tech</td>
+                            <td>Free</td>
+                            <td>Yes</td>
+                            <td>Tutorials, references</td>
+                            <td>Web developers</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="text-center mb-5">Get answers to common questions about coding resources</p>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Is freeCodeCamp truly free?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, freeCodeCamp is 100% free with no paywalls—earn certifications and build a portfolio at no cost.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            What's the best first language?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Python or JavaScript—both are beginner-friendly and versatile, as covered in Codecademy and freeCodeCamp.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Can I code offline?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            MDN docs allow offline reading; for coding, use local setups like VS Code after initial downloads.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            Do these resources help get jobs?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, freeCodeCamp certifications and LeetCode practice are highly regarded by employers for entry-level roles.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            How to stay motivated?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Set small goals, join communities on Replit or GitHub, and track progress with built-in badges.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="text-center mb-5">Have questions about coding resources? We're here to help!</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form class="p-4 p-md-5 bg-white rounded shadow" data-aos="fade-up">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Subject</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">CodeQuest</h5>
+                    <p>Your free guide to coding resources for beginners in 2025.</p>
+                    <div class="social-links mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">Popular Coding Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                        <li><a href="https://www.codecademy.com/">Codecademy</a></li>
+                        <li><a href="https://replit.com/">Replit</a></li>
+                        <li><a href="https://github.com/features/codespaces">GitHub Codespaces</a></li>
+                        <li><a href="https://leetcode.com/">LeetCode</a></li>
+                        <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#tools">Resources</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#comparison">Comparison</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Newsletter</h5>
+                    <p>Subscribe for updates on free coding tools.</p>
+                    <div class="footer-newsletter mt-4">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email" required>
+                        </div>
+                        <div class="input-group mt-4">
+                            <button class="btn" type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <div class="row">
+                    <div class="col-md-6 text-md-start mb-3 mb-md-0">
+                        <p>&copy; 2025 CodeQuest. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="./pages/privacy-policy.html" class="text-light me-3">Privacy Policy</a>
+                        <a href="./pages/terms-of-service.html" class="text-light me-3">Terms of Service</a>
+                        <a href="./pages/cookie-policy.html" class="text-light">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="./javascript/codequest.js"></script>
+</body>
+
+</html>
