@@ -1,18 +1,402 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="AlgoForge guides learners through data structures, algorithms, visualizations, references, and problem sets."><title>AlgoForge | Data Structures and Algorithms Guide</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><link rel="stylesheet" href="css/algoforge.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AlgoForge | Data Structures and Algorithms Guide</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Merriweather:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link href="./images/algoforge.png" rel="icon" type="image/x-icon"/>
+<link href="css/algoforge.css" rel="stylesheet"/>
+<meta content="AlgoForge guides learners through data structures, algorithms, visualizations, references, and problem sets." name="description"/></head>
 <body>
-<nav class="navbar navbar-expand-lg fixed-top"><div class="container"><a class="navbar-brand" href="#home"><span class="brand-mark"><i class="fa-solid fa-diagram-project"></i></span> AlgoForge</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button><div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2"><li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li><li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li><li class="nav-item"><a class="nav-link" href="#compare">Compare</a></li><li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li><li class="nav-item"><a class="btn btn-nav" href="../index.html">All portals</a></li></ul></div></div></nav>
-<main>
-<section id="home" class="hero-section"><div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div><div class="container position-relative"><div class="row align-items-center g-5"><div class="col-lg-7"><span class="eyebrow"><i class="fa-solid fa-bolt me-2"></i>Updated August 2026</span><h1>Turn hard problems into <span>repeatable patterns.</span></h1><p class="hero-copy">AlgoForge is a practical route through data structures, algorithmic thinking, visual intuition, and deliberate problem practice.</p><div class="d-flex flex-wrap gap-3"><a class="btn btn-primary btn-lg" href="#roadmap">Build your plan <i class="fa-solid fa-arrow-down ms-2"></i></a><a class="btn btn-ghost btn-lg" href="https://visualgo.net/en" target="_blank" rel="noopener">See an algorithm move <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a></div><div class="trust-line"><i class="fa-solid fa-circle-check"></i> Official sources reviewed · Free-first recommendations</div></div><div class="col-lg-5"><div class="terminal-card"><div class="terminal-top"><span></span><span></span><span></span><b>pattern-recognition.log</b></div><div class="terminal-body"><p class="muted"># solve in layers</p><p><span class="purple">01</span> Model the input and constraints</p><p><span class="green">02</span> Choose the right data structure</p><p><span class="blue">03</span> Prove the invariant</p><p><span class="orange">04</span> Analyse complexity + test edges</p><div class="progress-label"><span>confidence</span><strong>74%</strong></div><div class="progress"><div class="progress-bar" style="width:74%"></div></div></div></div></div></div></div></section>
-<section id="roadmap" class="section-section"><div class="container"><div class="section-heading"><span class="eyebrow">Learn in the right order</span><h2>From intuition to implementation</h2><p>Use visualization before memorization, a reference when you need rigor, and problem sets only after you can explain the pattern in your own words.</p></div><div class="row g-4"><div class="col-md-4"><article class="step-card"><div class="step-number">01</div><h3>See it</h3><p>Animate arrays, trees, heaps, graphs, and sorting so each operation has a visible mental model.</p><span class="step-tag">Visual intuition</span></article></div><div class="col-md-4"><article class="step-card featured"><div class="step-number">02</div><h3>Explain it</h3><p>Read the invariant, trade-offs, and proof idea. Write a plain-language explanation before code.</p><span class="step-tag">Conceptual clarity</span></article></div><div class="col-md-4"><article class="step-card"><div class="step-number">03</div><h3>Stress it</h3><p>Practise progressively: introductory tasks, timed sets, then advanced techniques and edge cases.</p><span class="step-tag">Deliberate practice</span></article></div></div></div></section>
-<section id="resources" class="section-section alt-section"><div class="container"><div class="section-heading"><span class="eyebrow">The current shortlist</span><h2>Use each tool for a different job</h2><p>These resources complement one another. No single platform is the best source for visualization, theory, and practice at the same time.</p></div><div class="row g-4"><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon cyan"><i class="fa-solid fa-eye"></i></div><div class="d-flex justify-content-between gap-2"><h3>VisuAlgo</h3><span class="access-pill free">Free</span></div><p>Interactive visualizations for arrays, sorting, linked lists, heaps, graphs, flows, strings, and more, with training and quizzes.</p><a href="https://visualgo.net/en" target="_blank" rel="noopener">Visualize algorithms <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon violet"><i class="fa-solid fa-book-open"></i></div><div class="d-flex justify-content-between gap-2"><h3>CP-Algorithms</h3><span class="access-pill free">Free</span></div><p>A volunteer-run reference covering algebra, data structures, dynamic programming, strings, geometry, and graph algorithms.</p><a href="https://cp-algorithms.com/" target="_blank" rel="noopener">Read the reference <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon green"><i class="fa-solid fa-route"></i></div><div class="d-flex justify-content-between gap-2"><h3>USACO Guide</h3><span class="access-pill free">Free</span></div><p>A curated roadmap from Bronze to Platinum and beyond, with topic resources, extensive problemsets, progress tracking, and a forum.</p><a href="https://usaco.guide/" target="_blank" rel="noopener">Follow the roadmap <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon orange"><i class="fa-solid fa-list-check"></i></div><div class="d-flex justify-content-between gap-2"><h3>CSES Problem Set</h3><span class="access-pill free">Free</span></div><p>A structured set of introductory, sorting, searching, dynamic-programming, graph, tree, range-query, string, and geometry tasks.</p><a href="https://cses.fi/problemset/" target="_blank" rel="noopener">Open problem set <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon pink"><i class="fa-solid fa-code"></i></div><div class="d-flex justify-content-between gap-2"><h3>LeetCode</h3><span class="access-pill limited">Free tier</span></div><p>Useful for interview-style practice, but use its free problems selectively and prioritise explaining solutions over chasing volume.</p><a href="https://leetcode.com/problemset/" target="_blank" rel="noopener">Practise problems <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon blue"><i class="fa-solid fa-graduation-cap"></i></div><div class="d-flex justify-content-between gap-2"><h3>MIT OpenCourseWare</h3><span class="access-pill free">Free</span></div><p>For learners who want lecture-level depth, use the official algorithms and data-structures courses as a theory companion.</p><a href="https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&q=algorithms" target="_blank" rel="noopener">Explore MIT OCW <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div></div></div></section>
-<section id="compare" class="section-section"><div class="container"><div class="section-heading"><span class="eyebrow">Choose by learning job</span><h2>Where should you start?</h2></div><div class="table-responsive comparison-wrap"><table class="comparison-table"><thead><tr><th>Resource</th><th>Best use</th><th>Access</th><th>Strength</th></tr></thead><tbody><tr><td><strong>VisuAlgo</strong></td><td>Build intuition</td><td><span class="access-pill free">Free</span></td><td>Animation, training, quizzes</td></tr><tr><td><strong>CP-Algorithms</strong></td><td>Look up advanced ideas</td><td><span class="access-pill free">Free</span></td><td>Wide, technical reference</td></tr><tr><td><strong>USACO Guide</strong></td><td>Follow progression</td><td><span class="access-pill free">Free</span></td><td>Curated topics, tracking, problems</td></tr><tr><td><strong>CSES</strong></td><td>Practise systematically</td><td><span class="access-pill free">Free</span></td><td>Large, categorized task set</td></tr><tr><td><strong>LeetCode</strong></td><td>Interview patterns</td><td><span class="access-pill limited">Free tier</span></td><td>Problem practice and discussion</td></tr></tbody></table></div><p class="small-note">Difficulty labels and platform offerings change. Use the official linked pages for the latest access and task details.</p></div></section>
-<section id="faq" class="section-section alt-section"><div class="container narrow"><div class="section-heading"><span class="eyebrow">Practical answers</span><h2>Questions learners ask</h2></div><div class="accordion" id="faqAccordion"><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Should I start with algorithms or data structures?</button></h3><div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">Learn them together. A data structure gives an operation a cost model; an algorithm uses those operations to solve a problem. Start with arrays, strings, stacks, queues, hash maps, recursion, trees, and graphs.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">How many problems should I solve?</button></h3><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">There is no useful universal number. Solve enough problems to recognize a pattern, explain why it works, implement it cleanly, and identify the edge cases without copying the answer.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Is competitive programming the same as software engineering?</button></h3><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">No. Competitive programming sharpens algorithmic problem solving under constraints. Software engineering also requires design, testing, maintainability, collaboration, security, and product context.</div></div></div></div></div></section>
-</main>
-<footer class="site-footer"><div class="container"><div class="row g-4"><div class="col-lg-5"><a class="navbar-brand text-white" href="#home"><span class="brand-mark"><i class="fa-solid fa-diagram-project"></i></span> AlgoForge</a><p class="footer-copy">A free-first guide to understanding and practising algorithms.</p></div><div class="col-6 col-lg-3"><h3>Explore</h3><a href="#roadmap">Roadmap</a><a href="#resources">Resources</a><a href="#compare">Compare</a></div><div class="col-6 col-lg-4"><h3>Portal</h3><a href="../index.html">Back to Edu Portal</a><a href="./pages/privacy-policy.html">Privacy policy</a><a href="./pages/terms-of-service.html">Terms of service</a></div></div><div class="footer-bottom"><span>© 2026 AlgoForge · Research reviewed August 2026</span><span>Links go to official provider sites</span></div></div></footer>
-<a class="back-to-top" href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="javascript/algoforge.js"></script>
-</body></html>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#"><i class="fas fa-sitemap"></i> AlgoForge</a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#tools">Resources</a></li>
+<li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+<li class="nav-item"><a class="nav-link" href="#comparison">Comparison</a></li>
+<li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Hero -->
+<section class="hero" id="home">
+<div class="container">
+<h1 data-aos="fade-down">Turn hard problems into repeatable patterns.</h1>
+<p class="lead" data-aos="fade-up" data-aos-delay="200">AlgoForge is a practical route through data structures, algorithmic thinking, visual intuition, and deliberate problem practice.</p>
+<div data-aos="fade-up" data-aos-delay="400">
+<a class="btn btn-primary btn-lg me-2" href="#roadmap">Build your plan</a>
+<a class="btn btn-outline-primary btn-lg" href="https://visualgo.net/en">See an algorithm move</a>
+</div>
+</div>
+</section>
+<!-- Tools Section -->
+<section class="section" id="tools">
+<div class="container">
+<h2 class="section-title">Popular DSA Resources</h2>
+<div class="row g-4">
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-sitemap"></i></div>
+<h4>VisuAlgo</h4>
+<p>Interactive visualizations for arrays, sorting, linked lists, heaps, graphs, flows, strings, and more, with training and quizzes.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Tutorials</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://visualgo.net/en">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-eye"></i></div>
+<h4>CP-Algorithms</h4>
+<p>A volunteer-run reference covering algebra, data structures, dynamic programming, strings, geometry, and graph algorithms.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Visualizations</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://cp-algorithms.com/">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-puzzle-piece"></i></div>
+<h4>USACO Guide</h4>
+<p>A curated roadmap from Bronze to Platinum and beyond, with topic resources, extensive problemsets, progress tracking, and a forum.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Problems</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://usaco.guide/">Official source</a></div>
+</div>
+</div>
+<div class="row g-4 mt-2">
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-code"></i></div>
+<h4>CSES Problem Set</h4>
+<p>A structured set of introductory, sorting, searching, dynamic-programming, graph, tree, range-query, string, and geometry tasks.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Challenges</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://cses.fi/problemset/">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-book"></i></div>
+<h4>LeetCode</h4>
+<p>Useful for interview-style practice, but use its free problems selectively and prioritise explaining solutions over chasing volume.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free tier</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Guides</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://leetcode.com/problemset/">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-laptop-code"></i></div>
+<h4>MIT OpenCourseWare</h4>
+<p>For learners who want lecture-level depth, use the official algorithms and data-structures courses as a theory companion.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Videos</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&amp;q=algorithms">Official source</a></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Features Section -->
+<section class="section bg-light" id="features">
+<div class="container">
+<h2 class="section-title">Key DSA Features</h2>
+<div class="row g-4">
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-eye"></i></div>
+<h4>See it</h4>
+<p>Animate arrays, trees, heaps, graphs, and sorting so each operation has a visible mental model.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-code"></i></div>
+<h4>Explain it</h4>
+<p>Read the invariant, trade-offs, and proof idea. Write a plain-language explanation before code.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-puzzle-piece"></i></div>
+<h4>Stress it</h4>
+<p>Practise progressively: introductory tasks, timed sets, then advanced techniques and edge cases.</p>
+</div>
+</div>
+</div>
+<div class="row g-4 mt-2">
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-brain"></i></div>
+<h4>Complexity Analysis</h4>
+<p>Big O notation breakdowns and time/space trade-offs explained simply.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-users"></i></div>
+<h4>Community Solutions</h4>
+<p>Discuss and compare approaches in forums for better understanding.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-trophy"></i></div>
+<h4>Interview Prep</h4>
+<p>Mock questions and patterns for FAANG-style algorithm interviews.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Spotlight Section -->
+<section class="section">
+<div class="container">
+<h2 class="section-title">Try GeeksforGeeks</h2>
+<div class="row align-items-center">
+<div class="col-lg-6" data-aos="fade-right">
+<h3>Ultimate DSA Encyclopedia</h3>
+<p>GeeksforGeeks is the go-to free resource for millions, with 10,000+ articles on data structures and algorithms. It's comprehensive, updated, and interview-focused.</p>
+<ul class="list-group list-group-flush">
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Coverage of all major data structures (arrays, linked lists, trees)</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Algorithm implementations in 5+ languages</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Practice problems with solutions</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Company-wise interview questions</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Free access to all content</span>
+</li>
+</ul>
+</div>
+<div class="col-lg-6" data-aos="fade-left">
+<div class="p-4 bg-white rounded shadow">
+<div class="mb-4">
+<a class="btn btn-primary" href="https://www.geeksforgeeks.org/" target="_blank">Try GeeksforGeeks Now</a>
+</div>
+<p class="text-muted small">GeeksforGeeks is free with optional premium for ad-free experience and extras.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Comparison Section -->
+<section class="section bg-light" id="comparison">
+<div class="container">
+<h2 class="section-title">Resource Comparison</h2>
+<p class="text-center mb-5">Compare top DSA tools to optimize your learning path</p>
+<div class="table-responsive" data-aos="fade-up">
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th>Resource</th>
+<th>Focus</th>
+<th>Pricing</th>
+<th>Languages</th>
+<th>Special Features</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody><tr><td><strong>VisuAlgo</strong></td><td>Build intuition</td><td><span class="access-pill free">Free</span></td><td>Animation, training, quizzes</td></tr><tr><td><strong>CP-Algorithms</strong></td><td>Look up advanced ideas</td><td><span class="access-pill free">Free</span></td><td>Wide, technical reference</td></tr><tr><td><strong>USACO Guide</strong></td><td>Follow progression</td><td><span class="access-pill free">Free</span></td><td>Curated topics, tracking, problems</td></tr><tr><td><strong>CSES</strong></td><td>Practise systematically</td><td><span class="access-pill free">Free</span></td><td>Large, categorized task set</td></tr><tr><td><strong>LeetCode</strong></td><td>Interview patterns</td><td><span class="access-pill limited">Free tier</span></td><td>Problem practice and discussion</td></tr></tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="section" id="faq">
+<div class="container">
+<h2 class="section-title">Frequently Asked Questions</h2>
+<p class="text-center mb-5">Get answers to common questions about DSA resources</p>
+<div class="accordion" id="faqAccordion">
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="0">
+<h2 class="accordion-header">
+<button class="accordion-button" data-bs-target="#faq1" data-bs-toggle="collapse" type="button">Should I start with algorithms or data structures?</button>
+</h2>
+<div class="accordion-collapse collapse show" data-bs-parent="#faqAccordion" id="faq1">
+<div class="accordion-body">Learn them together. A data structure gives an operation a cost model; an algorithm uses those operations to solve a problem. Start with arrays, strings, stacks, queues, hash maps, recursion, trees, and graphs.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq2" data-bs-toggle="collapse" type="button">How many problems should I solve?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq2">
+<div class="accordion-body">There is no useful universal number. Solve enough problems to recognize a pattern, explain why it works, implement it cleanly, and identify the edge cases without copying the answer.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq3" data-bs-toggle="collapse" type="button">Is competitive programming the same as software engineering?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq3">
+<div class="accordion-body">No. Competitive programming sharpens algorithmic problem solving under constraints. Software engineering also requires design, testing, maintainability, collaboration, security, and product context.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq4" data-bs-toggle="collapse" type="button">
+                            How to prepare for coding interviews?
+                        </button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq4">
+<div class="accordion-body">
+                            Solve 300+ problems on LeetCode, study patterns on AlgoExpert, and review company questions on GeeksforGeeks.
+                        </div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq5" data-bs-toggle="collapse" type="button">
+                            Do I need prior coding knowledge?
+                        </button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq5">
+<div class="accordion-body">
+                            No—resources like Visualgo start from basics, assuming only fundamental programming.
+                        </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="section bg-light" id="contact">
+<div class="container">
+<h2 class="section-title">Get In Touch</h2>
+<p class="text-center mb-5">Have questions about DSA resources? We're here to help!</p>
+<div class="row justify-content-center">
+<div class="col-lg-8">
+<form class="p-4 p-md-5 bg-white rounded shadow" data-aos="fade-up">
+<div class="row">
+<div class="col-md-6 mb-3">
+<label class="form-label">Name</label>
+<input class="form-control" required="" type="text"/>
+</div>
+<div class="col-md-6 mb-3">
+<label class="form-label">Email</label>
+<input class="form-control" required="" type="email"/>
+</div>
+</div>
+<div class="mb-3">
+<label class="form-label">Subject</label>
+<input class="form-control" required="" type="text"/>
+</div>
+<div class="mb-4">
+<label class="form-label">Message</label>
+<textarea class="form-control" required="" rows="5"></textarea>
+</div>
+<button class="btn btn-primary btn-lg w-100" type="submit">Send Message</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+<h5 class="footer-title">AlgoForge</h5>
+<p>Your free guide to data structures and algorithms in 2026.</p>
+<div class="social-links mt-4">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+<h5 class="footer-title">Popular DSA Resources</h5>
+<ul class="footer-links">
+<li><a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></li>
+<li><a href="https://visualgo.net/">Visualgo</a></li>
+<li><a href="https://leetcode.com/">LeetCode</a></li>
+<li><a href="https://www.hackerrank.com/">HackerRank</a></li>
+<li><a href="https://cp-algorithms.com/">CP-Algorithms</a></li>
+<li><a href="https://www.algoexpert.io/">AlgoExpert</a></li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+<h5 class="footer-title">Quick Links</h5>
+<ul class="footer-links">
+<li><a href="#tools">Resources</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#comparison">Comparison</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-6">
+<h5 class="footer-title">Newsletter</h5>
+<p>Subscribe for updates on free DSA tools.</p>
+<div class="footer-newsletter mt-4">
+<div class="input-group">
+<input class="form-control" placeholder="Your email" required="" type="email"/>
+</div>
+<div class="input-group mt-4">
+<button class="btn" type="submit">Subscribe</button>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom text-center">
+<div class="row">
+<div class="col-md-6 text-md-start mb-3 mb-md-0">
+<p>© 2026 AlgoForge. All rights reserved.</p>
+</div>
+<div class="col-md-6 text-md-end">
+<a class="text-light me-3" href="./pages/privacy-policy.html">Privacy Policy</a>
+<a class="text-light me-3" href="./pages/terms-of-service.html">Terms of Service</a>
+<a class="text-light" href="./pages/cookie-policy.html">Cookie Policy</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<a class="back-to-top" href="#"><i class="fas fa-arrow-up"></i></a>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./javascript/algoforge.js"></script>
+</body>
+</html>

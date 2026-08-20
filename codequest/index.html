@@ -1,86 +1,398 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CodeQuest is a practical guide to current coding courses, documentation, cloud development, and project-based learning for beginners.">
-  <title>CodeQuest | A Practical 2026 Coding Learning Guide</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="css/codequest.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CodeQuest | A Practical 2026 Coding Learning Guide</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Merriweather:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link href="./images/codequst.ico" rel="icon" type="image/x-icon"/>
+<link href="css/codequest.css" rel="stylesheet"/>
+<meta content="CodeQuest is a practical guide to current coding courses, documentation, cloud development, and project-based learning for beginners." name="description"/></head>
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation">
-    <div class="container">
-      <a class="navbar-brand" href="#home"><span class="brand-mark"><i class="fa-solid fa-terminal"></i></span> CodeQuest</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
-      <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
-          <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
-          <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
-          <li class="nav-item"><a class="nav-link" href="#compare">Compare</a></li>
-          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-          <li class="nav-item"><a class="btn btn-nav" href="../index.html"><i class="fa-solid fa-grid-2 me-2"></i>All portals</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <main>
-    <section id="home" class="hero-section">
-      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
-      <div class="container position-relative">
-        <div class="row align-items-center g-5">
-          <div class="col-lg-7">
-            <span class="eyebrow"><i class="fa-solid fa-sparkles me-2"></i>Updated August 2026</span>
-            <h1>Learn to code by <span>building, testing, and shipping.</span></h1>
-            <p class="hero-copy">A focused starting point for beginners: choose a path, practise with feedback, read reliable documentation, and turn each milestone into a project you can show.</p>
-            <div class="d-flex flex-wrap gap-3"><a class="btn btn-primary btn-lg" href="#roadmap">Choose your path <i class="fa-solid fa-arrow-down ms-2"></i></a><a class="btn btn-ghost btn-lg" href="https://www.freecodecamp.org/" target="_blank" rel="noopener">Start freeCodeCamp <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a></div>
-            <div class="trust-line"><i class="fa-solid fa-circle-check"></i> Curated from official platform documentation · No paid placement</div>
-          </div>
-          <div class="col-lg-5">
-            <div class="terminal-card" aria-label="Example learning plan">
-              <div class="terminal-top"><span></span><span></span><span></span><b>learning-plan.md</b></div>
-              <div class="terminal-body"><p class="muted"># 30-day starter sprint</p><p><span class="purple">01</span> Learn HTML + CSS fundamentals</p><p><span class="green">02</span> Build a responsive landing page</p><p><span class="blue">03</span> Add JavaScript interactions</p><p><span class="orange">04</span> Publish and request feedback</p><div class="progress-label"><span>progress</span><strong>68%</strong></div><div class="progress"><div class="progress-bar" style="width:68%"></div></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="roadmap" class="section-section">
-      <div class="container"><div class="section-heading"><span class="eyebrow">Start with the right sequence</span><h2>A roadmap that keeps you moving</h2><p>Do not collect courses indefinitely. Pick one primary curriculum, use one reference library, and publish small projects as evidence of progress.</p></div>
-        <div class="row g-4">
-          <div class="col-md-4"><article class="step-card"><div class="step-number">01</div><h3>Foundations</h3><p>Begin with HTML, CSS, JavaScript, or Python. Use guided exercises to learn syntax and the mental models behind it.</p><span class="step-tag">Weeks 1–4</span></article></div>
-          <div class="col-md-4"><article class="step-card featured"><div class="step-number">02</div><h3>Projects</h3><p>Build small, complete things: a page, a tool, a data script, or a game. Read documentation when you get stuck.</p><span class="step-tag">Weeks 5–8</span></article></div>
-          <div class="col-md-4"><article class="step-card"><div class="step-number">03</div><h3>Proof of work</h3><p>Use GitHub to document decisions, publish a demo, and ask for feedback. Certificates are useful; finished work is stronger.</p><span class="step-tag">Ongoing</span></article></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="resources" class="section-section alt-section">
-      <div class="container"><div class="section-heading"><span class="eyebrow">The 2026 shortlist</span><h2>Resources matched to a learning job</h2><p>Every recommendation below links to the provider’s official site. Access labels describe the current public offering, not a permanent guarantee.</p></div>
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon cyan"><i class="fa-solid fa-road"></i></div><div class="d-flex justify-content-between gap-2"><h3>freeCodeCamp</h3><span class="access-pill free">100% free</span></div><p>Project-based curriculum with verifiable certifications across web development, Python, databases, APIs, AI engineering, and more.</p><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener">Open curriculum <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div>
-          <div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon violet"><i class="fa-solid fa-book-open"></i></div><div class="d-flex justify-content-between gap-2"><h3>MDN Learn</h3><span class="access-pill free">Free</span></div><p>A structured front-end path from getting started to core and extension modules, backed by reference documentation and challenges.</p><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener">Learn web development <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div>
-          <div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon green"><i class="fa-brands fa-github"></i></div><div class="d-flex justify-content-between gap-2"><h3>GitHub Skills</h3><span class="access-pill free">Free</span></div><p>Short, hands-on courses inside GitHub with automated feedback. Ideal for learning repositories, pull requests, and collaboration.</p><a href="https://skills.github.com/" target="_blank" rel="noopener">Try GitHub Skills <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div>
-          <div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon orange"><i class="fa-solid fa-laptop-code"></i></div><div class="d-flex justify-content-between gap-2"><h3>GitHub Codespaces</h3><span class="access-pill limited">60 hr/mo*</span></div><p>A cloud development environment that opens from a repository. Personal Free accounts include 120 core hours, equivalent to 60 hours on a 2-core machine, plus 15 GB storage monthly.</p><a href="https://github.com/features/codespaces" target="_blank" rel="noopener">Open Codespaces <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div>
-          <div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon pink"><i class="fa-solid fa-code"></i></div><div class="d-flex justify-content-between gap-2"><h3>Codecademy Basic</h3><span class="access-pill limited">Limited free</span></div><p>Basic access includes selected course material, community support, learning resources, and limited practice; projects and full paths require a paid plan.</p><a href="https://www.codecademy.com/pricing" target="_blank" rel="noopener">See current plans <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div>
-          <div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon blue"><i class="fa-solid fa-compass"></i></div><div class="d-flex justify-content-between gap-2"><h3>The Odin Project</h3><span class="access-pill free">Free</span></div><p>An open-source, full-stack web development curriculum built around reading, practice, and portfolio projects.</p><a href="https://www.theodinproject.com/" target="_blank" rel="noopener">View curriculum <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="compare" class="section-section"><div class="container"><div class="section-heading"><span class="eyebrow">Make a deliberate choice</span><h2>Which resource fits your next step?</h2></div><div class="table-responsive comparison-wrap"><table class="comparison-table"><thead><tr><th>Resource</th><th>Best starting use</th><th>Access</th><th>What you get</th></tr></thead><tbody><tr><td><strong>freeCodeCamp</strong></td><td>Follow a complete path</td><td><span class="access-pill free">Free</span></td><td>Exercises, projects, verified certifications</td></tr><tr><td><strong>MDN Learn</strong></td><td>Understand the web platform</td><td><span class="access-pill free">Free</span></td><td>Curriculum, challenges, reference docs</td></tr><tr><td><strong>GitHub Skills</strong></td><td>Learn GitHub workflows</td><td><span class="access-pill free">Free</span></td><td>Interactive repositories, automated feedback</td></tr><tr><td><strong>Codespaces</strong></td><td>Code without local setup</td><td><span class="access-pill limited">Free quota</span></td><td>Browser IDE, preconfigured environments</td></tr><tr><td><strong>Codecademy Basic</strong></td><td>Try guided lessons</td><td><span class="access-pill limited">Limited</span></td><td>Selected courses, resources, community</td></tr><tr><td><strong>The Odin Project</strong></td><td>Build a web portfolio</td><td><span class="access-pill free">Free</span></td><td>Open-source full-stack curriculum, projects</td></tr></tbody></table></div><p class="small-note">*Usage quotas and paid-plan features can change. Check the linked official pricing or billing page before committing time or money.</p></div></section>
-
-    <section id="faq" class="section-section alt-section"><div class="container narrow"><div class="section-heading"><span class="eyebrow">Practical answers</span><h2>Questions beginners ask</h2></div><div class="accordion" id="faqAccordion"><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Should I learn Python or JavaScript first?</button></h3><div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">Choose based on your first project. JavaScript is the direct route to interactive websites; Python is a friendly route into scripting, automation, data, and AI. Either is a sound starting language.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Is freeCodeCamp still completely free?</button></h3><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Its official site currently states that courses, projects, and certifications are free. Treat that as a current provider statement and revisit the site for future changes.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Do I need Codespaces to learn?</button></h3><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">No. A local editor is enough. Codespaces is useful when you want a preconfigured browser-based environment or need to work from a lower-powered device. Monitor the monthly quota.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">What should I build first?</button></h3><div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Build something small that solves a real problem: a personal landing page, quiz, habit tracker, calculator, or data-cleaning script. Finish it, publish it, and write a short README.</div></div></div></div></div></section>
-  </main>
-
-  <footer class="site-footer"><div class="container"><div class="row g-4"><div class="col-lg-5"><a class="navbar-brand text-white" href="#home"><span class="brand-mark"><i class="fa-solid fa-terminal"></i></span> CodeQuest</a><p class="footer-copy">A calm, practical guide to learning software skills on the open web.</p></div><div class="col-6 col-lg-3"><h3>Explore</h3><a href="#roadmap">Roadmap</a><a href="#resources">Resources</a><a href="#compare">Compare</a></div><div class="col-6 col-lg-4"><h3>Portal</h3><a href="../index.html">Back to Edu Portal</a><a href="./pages/privacy-policy.html">Privacy policy</a><a href="./pages/terms-of-service.html">Terms of service</a></div></div><div class="footer-bottom"><span>© 2026 CodeQuest · Research reviewed August 2026</span><span>Links go to official provider sites</span></div></div></footer>
-  <a class="back-to-top" href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="javascript/codequest.js"></script>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#"><i class="fas fa-code"></i> CodeQuest</a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#tools">Resources</a></li>
+<li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+<li class="nav-item"><a class="nav-link" href="#comparison">Comparison</a></li>
+<li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Hero -->
+<section class="hero" id="home">
+<div class="container">
+<h1 data-aos="fade-down">Learn to code by building, testing, and shipping.</h1>
+<p class="lead" data-aos="fade-up" data-aos-delay="200">A focused starting point for beginners: choose a path, practise with feedback, read reliable documentation, and turn each milestone into a project you can show.</p>
+<div data-aos="fade-up" data-aos-delay="400">
+<a class="btn btn-primary btn-lg me-2" href="#roadmap">Choose your path</a>
+<a class="btn btn-outline-primary btn-lg" href="https://www.freecodecamp.org/">Start freeCodeCamp</a>
+</div>
+</div>
+</section>
+<!-- Tools Section -->
+<section class="section" id="tools">
+<div class="container">
+<h2 class="section-title">Popular Coding Resources</h2>
+<div class="row g-4">
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-graduation-cap"></i></div>
+<h4>freeCodeCamp</h4>
+<p>Project-based curriculum with verifiable certifications across web development, Python, databases, APIs, AI engineering, and more.</p>
+<div class="mt-4">
+<span class="badge bg-primary">100% free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Full-Stack</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://www.freecodecamp.org/">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-laptop-code"></i></div>
+<h4>MDN Learn</h4>
+<p>A structured front-end path from getting started to core and extension modules, backed by reference documentation and challenges.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Languages</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://developer.mozilla.org/en-US/docs/Learn_web_development">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-cloud"></i></div>
+<h4>GitHub Skills</h4>
+<p>Short, hands-on courses inside GitHub with automated feedback. Ideal for learning repositories, pull requests, and collaboration.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Collaboration</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://skills.github.com/">Official source</a></div>
+</div>
+</div>
+<div class="row g-4 mt-2">
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+<div class="tool-card">
+<div class="tool-icon"><i class="fab fa-github"></i></div>
+<h4>GitHub Codespaces</h4>
+<p>A cloud development environment that opens from a repository. Personal Free accounts include 120 core hours, equivalent to 60 hours on a 2-core machine, plus 15 GB storage monthly.</p>
+<div class="mt-4">
+<span class="badge bg-primary">60 hr/mo*</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Dev Env</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://github.com/features/codespaces">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-puzzle-piece"></i></div>
+<h4>Codecademy Basic</h4>
+<p>Basic access includes selected course material, community support, learning resources, and limited practice; projects and full paths require a paid plan.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Limited free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Interviews</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://www.codecademy.com/pricing">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-book"></i></div>
+<h4>The Odin Project</h4>
+<p>An open-source, full-stack web development curriculum built around reading, practice, and portfolio projects.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Web Dev</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://www.theodinproject.com/">Official source</a></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Features Section -->
+<section class="section bg-light" id="features">
+<div class="container">
+<h2 class="section-title">Key Coding Features</h2>
+<div class="row g-4">
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+<h4>Foundations</h4>
+<p>Begin with HTML, CSS, JavaScript, or Python. Use guided exercises to learn syntax and the mental models behind it.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-folder-open"></i></div>
+<h4>Projects</h4>
+<p>Build small, complete things: a page, a tool, a data script, or a game. Read documentation when you get stuck.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-users"></i></div>
+<h4>Proof of work</h4>
+<p>Use GitHub to document decisions, publish a demo, and ask for feedback. Certificates are useful; finished work is stronger.</p>
+</div>
+</div>
+</div>
+<div class="row g-4 mt-2">
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+<h4>Progress Trackers</h4>
+<p>Monitor your skill growth with badges and completion stats.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-code-branch"></i></div>
+<h4>Version Control Intro</h4>
+<p>Learn Git basics integrated into platforms for team projects.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-laptop"></i></div>
+<h4>Cloud IDEs</h4>
+<p>Code in the browser without setup—perfect for beginners.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Spotlight Section -->
+<section class="section">
+<div class="container">
+<h2 class="section-title">Try freeCodeCamp</h2>
+<div class="row align-items-center">
+<div class="col-lg-6" data-aos="fade-right">
+<h3>Non-Profit Coding Bootcamp</h3>
+<p>freeCodeCamp has helped millions land developer jobs with its free, project-based curriculum. Earn certifications that stand out on resumes.</p>
+<ul class="list-group list-group-flush">
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>3,000+ hours of interactive content</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Certifications in web dev, data viz, ML</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Build 30+ portfolio projects</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Global community and job board</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>100% free, open-source</span>
+</li>
+</ul>
+</div>
+<div class="col-lg-6" data-aos="fade-left">
+<div class="p-4 bg-white rounded shadow">
+<div class="mb-4">
+<a class="btn btn-primary" href="https://www.freecodecamp.org/" target="_blank">Try freeCodeCamp Now</a>
+</div>
+<p class="text-muted small">freeCodeCamp is entirely free with no ads or paywalls. Donations keep it running for everyone.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Comparison Section -->
+<section class="section bg-light" id="comparison">
+<div class="container">
+<h2 class="section-title">Resource Comparison</h2>
+<p class="text-center mb-5">Compare top coding platforms to find your ideal starting point</p>
+<div class="table-responsive" data-aos="fade-up">
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th>Resource</th>
+<th>Focus</th>
+<th>Pricing</th>
+<th>Offline</th>
+<th>Special Features</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody><tr><td><strong>freeCodeCamp</strong></td><td>Follow a complete path</td><td><span class="access-pill free">Free</span></td><td>Exercises, projects, verified certifications</td></tr><tr><td><strong>MDN Learn</strong></td><td>Understand the web platform</td><td><span class="access-pill free">Free</span></td><td>Curriculum, challenges, reference docs</td></tr><tr><td><strong>GitHub Skills</strong></td><td>Learn GitHub workflows</td><td><span class="access-pill free">Free</span></td><td>Interactive repositories, automated feedback</td></tr><tr><td><strong>Codespaces</strong></td><td>Code without local setup</td><td><span class="access-pill limited">Free quota</span></td><td>Browser IDE, preconfigured environments</td></tr><tr><td><strong>Codecademy Basic</strong></td><td>Try guided lessons</td><td><span class="access-pill limited">Limited</span></td><td>Selected courses, resources, community</td></tr><tr><td><strong>The Odin Project</strong></td><td>Build a web portfolio</td><td><span class="access-pill free">Free</span></td><td>Open-source full-stack curriculum, projects</td></tr></tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="section" id="faq">
+<div class="container">
+<h2 class="section-title">Frequently Asked Questions</h2>
+<p class="text-center mb-5">Get answers to common questions about coding resources</p>
+<div class="accordion" id="faqAccordion">
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="0">
+<h2 class="accordion-header">
+<button class="accordion-button" data-bs-target="#faq1" data-bs-toggle="collapse" type="button">Should I learn Python or JavaScript first?</button>
+</h2>
+<div class="accordion-collapse collapse show" data-bs-parent="#faqAccordion" id="faq1">
+<div class="accordion-body">Choose based on your first project. JavaScript is the direct route to interactive websites; Python is a friendly route into scripting, automation, data, and AI. Either is a sound starting language.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq2" data-bs-toggle="collapse" type="button">Is freeCodeCamp still completely free?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq2">
+<div class="accordion-body">Its official site currently states that courses, projects, and certifications are free. Treat that as a current provider statement and revisit the site for future changes.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq3" data-bs-toggle="collapse" type="button">Do I need Codespaces to learn?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq3">
+<div class="accordion-body">No. A local editor is enough. Codespaces is useful when you want a preconfigured browser-based environment or need to work from a lower-powered device. Monitor the monthly quota.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq4" data-bs-toggle="collapse" type="button">What should I build first?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq4">
+<div class="accordion-body">Build something small that solves a real problem: a personal landing page, quiz, habit tracker, calculator, or data-cleaning script. Finish it, publish it, and write a short README.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq5" data-bs-toggle="collapse" type="button">
+                            How to stay motivated?
+                        </button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq5">
+<div class="accordion-body">
+                            Set small goals, join communities on Replit or GitHub, and track progress with built-in badges.
+                        </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="section bg-light" id="contact">
+<div class="container">
+<h2 class="section-title">Get In Touch</h2>
+<p class="text-center mb-5">Have questions about coding resources? We're here to help!</p>
+<div class="row justify-content-center">
+<div class="col-lg-8">
+<form class="p-4 p-md-5 bg-white rounded shadow" data-aos="fade-up">
+<div class="row">
+<div class="col-md-6 mb-3">
+<label class="form-label">Name</label>
+<input class="form-control" required="" type="text"/>
+</div>
+<div class="col-md-6 mb-3">
+<label class="form-label">Email</label>
+<input class="form-control" required="" type="email"/>
+</div>
+</div>
+<div class="mb-3">
+<label class="form-label">Subject</label>
+<input class="form-control" required="" type="text"/>
+</div>
+<div class="mb-4">
+<label class="form-label">Message</label>
+<textarea class="form-control" required="" rows="5"></textarea>
+</div>
+<button class="btn btn-primary btn-lg w-100" type="submit">Send Message</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+<h5 class="footer-title">CodeQuest</h5>
+<p>Your free guide to coding resources for beginners in 2026.</p>
+<div class="social-links mt-4">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+<h5 class="footer-title">Popular Coding Resources</h5>
+<ul class="footer-links">
+<li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+<li><a href="https://www.codecademy.com/">Codecademy</a></li>
+<li><a href="https://replit.com/">Replit</a></li>
+<li><a href="https://github.com/features/codespaces">GitHub Codespaces</a></li>
+<li><a href="https://leetcode.com/">LeetCode</a></li>
+<li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+<h5 class="footer-title">Quick Links</h5>
+<ul class="footer-links">
+<li><a href="#tools">Resources</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#comparison">Comparison</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-6">
+<h5 class="footer-title">Newsletter</h5>
+<p>Subscribe for updates on free coding tools.</p>
+<div class="footer-newsletter mt-4">
+<div class="input-group">
+<input class="form-control" placeholder="Your email" required="" type="email"/>
+</div>
+<div class="input-group mt-4">
+<button class="btn" type="submit">Subscribe</button>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom text-center">
+<div class="row">
+<div class="col-md-6 text-md-start mb-3 mb-md-0">
+<p>© 2026 CodeQuest. All rights reserved.</p>
+</div>
+<div class="col-md-6 text-md-end">
+<a class="text-light me-3" href="./pages/privacy-policy.html">Privacy Policy</a>
+<a class="text-light me-3" href="./pages/terms-of-service.html">Terms of Service</a>
+<a class="text-light" href="./pages/cookie-policy.html">Cookie Policy</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<a class="back-to-top" href="#"><i class="fas fa-arrow-up"></i></a>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./javascript/codequest.js"></script>
 </body>
 </html>

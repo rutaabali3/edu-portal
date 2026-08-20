@@ -1,18 +1,398 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="DesignHub compares current UI, UX, prototyping, visual design, and developer handoff tools."><title>DesignHub | Make Interfaces Together</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><link rel="stylesheet" href="css/designhub.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DesignHub | Make Interfaces Together</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Merriweather:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link href="./images/design-hub.ico" rel="icon" type="image/x-icon"/>
+<link href="css/designhub.css" rel="stylesheet"/>
+<meta content="DesignHub compares current UI, UX, prototyping, visual design, and developer handoff tools." name="description"/></head>
 <body>
-<nav class="navbar navbar-expand-lg fixed-top"><div class="container"><a class="navbar-brand" href="#home"><span class="brand-mark"><i class="fa-solid fa-pen-nib"></i></span> DesignHub</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button><div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2"><li class="nav-item"><a class="nav-link" href="#roadmap">Process</a></li><li class="nav-item"><a class="nav-link" href="#resources">Tools</a></li><li class="nav-item"><a class="nav-link" href="#compare">Compare</a></li><li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li><li class="nav-item"><a class="btn btn-nav" href="../index.html">All portals</a></li></ul></div></div></nav>
-<main>
-<section id="home" class="hero-section"><div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div><div class="container position-relative"><div class="row align-items-center g-5"><div class="col-lg-7"><span class="eyebrow"><i class="fa-solid fa-layer-group me-2"></i>Updated August 2026</span><h1>Make the interface <span>understandable.</span></h1><p class="hero-copy">Learn the design loop that turns rough ideas into accessible flows, testable prototypes, reusable systems, and handoff-ready decisions.</p><div class="d-flex flex-wrap gap-3"><a class="btn btn-primary btn-lg" href="#roadmap">See the process <i class="fa-solid fa-arrow-down ms-2"></i></a><a class="btn btn-ghost btn-lg" href="https://www.figma.com/" target="_blank" rel="noopener">Open Figma <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a></div><div class="trust-line"><i class="fa-solid fa-circle-check"></i> Official product pages reviewed · Free access is plan-dependent</div></div><div class="col-lg-5"><div class="terminal-card"><div class="terminal-top"><span></span><span></span><span></span><b>design-review.fig</b></div><div class="terminal-body"><p class="muted"># interface review</p><p><span class="purple">01</span> Frame the user problem</p><p><span class="green">02</span> Map the smallest flow</p><p><span class="blue">03</span> Test before polishing</p><p><span class="orange">04</span> Document the system</p><div class="progress-label"><span>decision clarity</span><strong>76%</strong></div><div class="progress"><div class="progress-bar" style="width:76%"></div></div></div></div></div></div></div></section>
-<section id="roadmap" class="section-section"><div class="container"><div class="section-heading"><span class="eyebrow">Design the decision</span><h2>A process that survives handoff</h2><p>A beautiful screen is not the whole product. Keep the user goal, content, states, constraints, and implementation notes visible as the work moves from idea to build.</p></div><div class="row g-4"><div class="col-md-4"><article class="step-card"><div class="step-number">01</div><h3>Frame the flow</h3><p>Write the user, goal, entry point, success state, and edge case before opening the visual canvas.</p><span class="step-tag">Problem clarity</span></article></div><div class="col-md-4"><article class="step-card featured"><div class="step-number">02</div><h3>Prototype the risk</h3><p>Prototype the interaction most likely to fail and test it with realistic content before polishing the surface.</p><span class="step-tag">Fast learning</span></article></div><div class="col-md-4"><article class="step-card"><div class="step-number">03</div><h3>Systematize the result</h3><p>Use components, tokens, annotations, responsive rules, and accessible states so the work can be built consistently.</p><span class="step-tag">Handoff quality</span></article></div></div></div></section>
-<section id="resources" class="section-section alt-section"><div class="container"><div class="section-heading"><span class="eyebrow">The current shortlist</span><h2>Choose a tool for the job</h2><p>These products overlap, but their strengths differ. Pick based on the artifact you need to make and the people who need to participate.</p></div><div class="row g-4"><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon cyan"><i class="fa-solid fa-vector-square"></i></div><div class="d-flex justify-content-between gap-2"><h3>Figma</h3><span class="access-pill limited">Free + paid</span></div><p>Collaborative design, prototyping, FigJam, Dev Mode, and a growing set of products. Starter is free with limited access; paid seats add files, libraries, handoff, and administration.</p><a href="https://www.figma.com/pricing/" target="_blank" rel="noopener">See Figma plans <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon violet"><i class="fa-solid fa-cube"></i></div><div class="d-flex justify-content-between gap-2"><h3>Penpot</h3><span class="access-pill free">Open source</span></div><p>Open-source, browser-based design for teams. It supports responsive rules, CSS Grid and Flex layouts, interactive prototypes, real-time collaboration, design tokens, and code inspection.</p><a href="https://penpot.app/" target="_blank" rel="noopener">Explore Penpot <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon green"><i class="fa-solid fa-wand-magic-sparkles"></i></div><div class="d-flex justify-content-between gap-2"><h3>Canva</h3><span class="access-pill free">Free + paid</span></div><p>Fast visual communication for posters, presentations, social content, documents, and more. Canva Free includes a drag-and-drop editor, templates, assets, storage, and limited AI access.</p><a href="https://www.canva.com/en/pricing/" target="_blank" rel="noopener">See Canva plans <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon orange"><i class="fa-solid fa-pen-ruler"></i></div><div class="d-flex justify-content-between gap-2"><h3>FigJam</h3><span class="access-pill limited">Inside Figma</span></div><p>Use collaborative whiteboarding for mapping, workshops, critique, and early alignment before turning the result into a detailed interface.</p><a href="https://www.figma.com/figjam/" target="_blank" rel="noopener">Explore FigJam <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon pink"><i class="fa-solid fa-code"></i></div><div class="d-flex justify-content-between gap-2"><h3>Penpot Devtools</h3><span class="access-pill free">Open standards</span></div><p>For design-to-code learning, inspect properties and CSS/SVG output while keeping implementation constraints close to the design conversation.</p><a href="https://penpot.app/features" target="_blank" rel="noopener">Read features <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div><div class="col-lg-4 col-md-6"><article class="resource-card"><div class="resource-icon blue"><i class="fa-solid fa-universal-access"></i></div><div class="d-flex justify-content-between gap-2"><h3>WCAG guidance</h3><span class="access-pill free">Open standard</span></div><p>Use the W3C Web Content Accessibility Guidelines as a reference for contrast, keyboard access, text alternatives, focus, and robust interaction states.</p><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener">Read WCAG <i class="fa-solid fa-arrow-up-right-from-square"></i></a></article></div></div></div></section>
-<section id="compare" class="section-section"><div class="container"><div class="section-heading"><span class="eyebrow">Choose by constraint</span><h2>Where should your team begin?</h2></div><div class="table-responsive comparison-wrap"><table class="comparison-table"><thead><tr><th>Tool</th><th>Best starting use</th><th>Access</th><th>Key trade-off</th></tr></thead><tbody><tr><td><strong>Figma</strong></td><td>UI systems and product prototypes</td><td><span class="access-pill limited">Free + paid</span></td><td>Free plan has limits; paid seats scale features</td></tr><tr><td><strong>Penpot</strong></td><td>Open-source design-to-code work</td><td><span class="access-pill free">Open source</span></td><td>Smaller ecosystem than incumbent tools</td></tr><tr><td><strong>Canva</strong></td><td>Fast visual communication</td><td><span class="access-pill free">Free + paid</span></td><td>Not a replacement for detailed product UI workflows</td></tr><tr><td><strong>FigJam</strong></td><td>Mapping and group workshops</td><td><span class="access-pill limited">Plan-dependent</span></td><td>Needs a follow-on design artifact</td></tr></tbody></table></div><p class="small-note">Plan names, limits, AI allowances, and product features change. Check official pages before selecting a tool for a class or team.</p></div></section>
-<section id="faq" class="section-section alt-section"><div class="container narrow"><div class="section-heading"><span class="eyebrow">Practical answers</span><h2>Questions beginners ask</h2></div><div class="accordion" id="faqAccordion"><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Is the free version enough to learn UI design?</button></h3><div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">Yes, for learning fundamentals, small exercises, and portfolio prototypes. Limits appear when you need many private files, shared libraries, advanced handoff, or team administration.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">What should a design handoff include?</button></h3><div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Include the user flow, responsive behavior, content rules, component states, interaction details, accessibility expectations, assets, and unresolved questions. A link alone is not a specification.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Should students start with Figma or Penpot?</button></h3><div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Choose Figma when your class or collaborators already use its ecosystem; choose Penpot when open-source licensing, self-hosting, web standards, or design-to-code alignment are central learning goals.</div></div></div></div></div></section>
-</main>
-<footer class="site-footer"><div class="container"><div class="row g-4"><div class="col-lg-5"><a class="navbar-brand text-white" href="#home"><span class="brand-mark"><i class="fa-solid fa-pen-nib"></i></span> DesignHub</a><p class="footer-copy">A practical guide to designing interfaces that teams can understand and build.</p></div><div class="col-6 col-lg-3"><h3>Explore</h3><a href="#roadmap">Process</a><a href="#resources">Tools</a><a href="#compare">Compare</a></div><div class="col-6 col-lg-4"><h3>Portal</h3><a href="../index.html">Back to Edu Portal</a><a href="./pages/privacy-policy.html">Privacy policy</a><a href="./pages/terms-of-service.html">Terms of service</a></div></div><div class="footer-bottom"><span>© 2026 DesignHub · Research reviewed August 2026</span><span>Links go to official provider sites</span></div></div></footer>
-<a class="back-to-top" href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="javascript/designhub.js"></script>
-</body></html>
+<!-- nav -->
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#"><i class="fas fa-palette"></i> DesignHub</a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+<li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+<li class="nav-item"><a class="nav-link" href="#comparison">Comparison</a></li>
+<li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="hero" id="home">
+<div class="container">
+<h1 data-aos="fade-down">Make the interface understandable.</h1>
+<p class="lead" data-aos="fade-up" data-aos-delay="200">Learn the design loop that turns rough ideas into accessible flows, testable prototypes, reusable systems, and handoff-ready decisions.</p>
+<div data-aos="fade-up" data-aos-delay="400">
+<a class="btn btn-primary btn-lg me-2" href="#roadmap">See the process</a>
+<a class="btn btn-outline-primary btn-lg" href="https://www.figma.com/">Open Figma</a>
+</div>
+</div>
+</section>
+<!-- Tools Section -->
+<section class="section" id="tools">
+<div class="container">
+<h2 class="section-title">Popular Design Tools</h2>
+<div class="row g-4">
+<div class="col-md-4" data-aos="fade-up">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-vector-square"></i></div>
+<h4>Figma</h4>
+<p>Collaborative design, prototyping, FigJam, Dev Mode, and a growing set of products. Starter is free with limited access; paid seats add files, libraries, handoff, and administration.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free + paid</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">UI/UX</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://www.figma.com/pricing/">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-brush"></i></div>
+<h4>Penpot</h4>
+<p>Open-source, browser-based design for teams. It supports responsive rules, CSS Grid and Flex layouts, interactive prototypes, real-time collaboration, design tokens, and code inspection.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Open source</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Graphics</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://penpot.app/">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-laptop"></i></div>
+<h4>Canva</h4>
+<p>Fast visual communication for posters, presentations, social content, documents, and more. Canva Free includes a drag-and-drop editor, templates, assets, storage, and limited AI access.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Free + paid</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Prototyping</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://www.canva.com/en/pricing/">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-draw-polygon"></i></div>
+<h4>FigJam</h4>
+<p>Use collaborative whiteboarding for mapping, workshops, critique, and early alignment before turning the result into a detailed interface.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Inside Figma</span>
+<span class="badge bg-secondary">Desktop</span>
+<span class="badge bg-info">UI Design</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://www.figma.com/figjam/">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-cube"></i></div>
+<h4>Penpot Devtools</h4>
+<p>For design-to-code learning, inspect properties and CSS/SVG output while keeping implementation constraints close to the design conversation.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Open standards</span>
+<span class="badge bg-secondary">Web</span>
+<span class="badge bg-info">Open Source</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://penpot.app/features">Official source</a></div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="tool-card">
+<div class="tool-icon"><i class="fas fa-layer-group"></i></div>
+<h4>WCAG guidance</h4>
+<p>Use the W3C Web Content Accessibility Guidelines as a reference for contrast, keyboard access, text alternatives, focus, and robust interaction states.</p>
+<div class="mt-4">
+<span class="badge bg-primary">Open standard</span>
+<span class="badge bg-secondary">Web &amp; Desktop</span>
+<span class="badge bg-info">Vector</span>
+</div>
+<a class="btn btn-primary btn-sm mt-3" href="https://www.w3.org/WAI/standards-guidelines/wcag/">Official source</a></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Features Section -->
+<section class="section bg-light" id="features">
+<div class="container">
+<h2 class="section-title">Key Collaboration Features</h2>
+<div class="row g-4">
+<div class="col-md-4" data-aos="fade-up">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-users"></i></div>
+<h4>Frame the flow</h4>
+<p>Write the user, goal, entry point, success state, and edge case before opening the visual canvas.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-link"></i></div>
+<h4>Prototype the risk</h4>
+<p>Prototype the interaction most likely to fail and test it with realistic content before polishing the surface.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-database"></i></div>
+<h4>Systematize the result</h4>
+<p>Use components, tokens, annotations, responsive rules, and accessible states so the work can be built consistently.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-chalkboard"></i></div>
+<h4>Whiteboarding</h4>
+<p>Visual brainstorming with digital sticky notes and flows.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-comment"></i></div>
+<h4>Feedback Tools</h4>
+<p>Comment directly on designs for easy review.</p>
+</div>
+</div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+<div class="feature-box">
+<div class="feature-icon"><i class="fas fa-code-branch"></i></div>
+<h4>Developer Handoff</h4>
+<p>Generate specs and code snippets for smooth dev integration.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Spotlight Section -->
+<section class="section">
+<div class="container">
+<h2 class="section-title">Try Figma</h2>
+<div class="row align-items-center">
+<div class="col-lg-6" data-aos="fade-right">
+<h3>The Most Popular Design Platform</h3>
+<p>Figma is the go-to free tool for millions of designers and teams. It enables real-time collaboration, easy prototyping, and design system management—all in the browser.</p>
+<ul class="list-group list-group-flush">
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Real-time collaboration with unlimited teammates</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Cross-platform (Windows, Mac, Web, Mobile)</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Built-in prototyping tools</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Design systems &amp; shared asset libraries</span>
+</li>
+<li class="list-group-item d-flex align-items-center">
+<i class="fas fa-check-circle text-success me-2"></i>
+<span>Free for individuals and small teams</span>
+</li>
+</ul>
+</div>
+<div class="col-lg-6" data-aos="fade-left">
+<div class="p-4 bg-white rounded shadow">
+<div class="mb-4">
+<a class="btn btn-primary" href="https://www.figma.com" target="_blank">Try Figma Now</a>
+</div>
+<p class="text-muted small">
+            Figma is free for personal use and small teams. Paid plans add advanced features such as analytics, advanced permissions, and unlimited version history.
+          </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Comparison Section -->
+<section class="section bg-light" id="comparison">
+<div class="container">
+<h2 class="section-title">Tool Comparison</h2>
+<p class="text-center mb-5">Compare top design tools to find the best for your team</p>
+<div class="table-responsive" data-aos="fade-up">
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th>Tool</th>
+<th>Platform</th>
+<th>Pricing</th>
+<th>Ease of Use</th>
+<th>Special Features</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody><tr><td><strong>Figma</strong></td><td>UI systems and product prototypes</td><td><span class="access-pill limited">Free + paid</span></td><td>Free plan has limits; paid seats scale features</td></tr><tr><td><strong>Penpot</strong></td><td>Open-source design-to-code work</td><td><span class="access-pill free">Open source</span></td><td>Smaller ecosystem than incumbent tools</td></tr><tr><td><strong>Canva</strong></td><td>Fast visual communication</td><td><span class="access-pill free">Free + paid</span></td><td>Not a replacement for detailed product UI workflows</td></tr><tr><td><strong>FigJam</strong></td><td>Mapping and group workshops</td><td><span class="access-pill limited">Plan-dependent</span></td><td>Needs a follow-on design artifact</td></tr></tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="section" id="faq">
+<div class="container">
+<h2 class="section-title">Frequently Asked Questions</h2>
+<p class="text-center mb-5">Get answers to common questions about design tools</p>
+<div class="accordion" id="faqAccordion">
+<div class="accordion-item" data-aos="fade-up">
+<h2 class="accordion-header">
+<button class="accordion-button" data-bs-target="#faq1" data-bs-toggle="collapse" type="button">Is the free version enough to learn UI design?</button>
+</h2>
+<div class="accordion-collapse collapse show" data-bs-parent="#faqAccordion" id="faq1">
+<div class="accordion-body">Yes, for learning fundamentals, small exercises, and portfolio prototypes. Limits appear when you need many private files, shared libraries, advanced handoff, or team administration.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq2" data-bs-toggle="collapse" type="button">What should a design handoff include?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq2">
+<div class="accordion-body">Include the user flow, responsive behavior, content rules, component states, interaction details, accessibility expectations, assets, and unresolved questions. A link alone is not a specification.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq3" data-bs-toggle="collapse" type="button">Should students start with Figma or Penpot?</button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq3">
+<div class="accordion-body">Choose Figma when your class or collaborators already use its ecosystem; choose Penpot when open-source licensing, self-hosting, web standards, or design-to-code alignment are central learning goals.</div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq4" data-bs-toggle="collapse" type="button">
+            Are these tools good for team collaboration?
+          </button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq4">
+<div class="accordion-body">
+            Yes, Figma, InVision, and Penpot offer strong collaboration features like real-time editing, comments, and shareable prototypes.
+          </div>
+</div>
+</div>
+<div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#faq5" data-bs-toggle="collapse" type="button">
+            Can I export designs easily for developers?
+          </button>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#faqAccordion" id="faq5">
+<div class="accordion-body">
+            Absolutely. Figma, InVision, and Penpot provide developer handoff features, allowing automatic spec generation, assets download, and even code snippets.
+          </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="section bg-light" id="contact">
+<div class="container">
+<h2 class="section-title">Get In Touch</h2>
+<p class="text-center mb-5">Have questions about design tools? We're here to help!</p>
+<div class="row justify-content-center">
+<div class="col-lg-8">
+<div class="p-4 p-md-5 bg-white rounded shadow" data-aos="fade-up">
+<div class="row">
+<div class="col-md-6 mb-3">
+<label class="form-label">Name</label>
+<input class="form-control" required="" type="text"/>
+</div>
+<div class="col-md-6 mb-3">
+<label class="form-label">Email</label>
+<input class="form-control" required="" type="email"/>
+</div>
+</div>
+<div class="mb-3">
+<label class="form-label">Subject</label>
+<input class="form-control" required="" type="text"/>
+</div>
+<div class="mb-4">
+<label class="form-label">Message</label>
+<textarea class="form-control" required="" rows="5"></textarea>
+</div>
+<button class="btn btn-primary btn-lg w-100" type="submit">Send Message</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+<h5 class="footer-title">DataLearn</h5>
+<p>Your free guide to design tools and visual collaboration in 2026.</p>
+<div class="social-links mt-4">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+<h5 class="footer-title">Platforms</h5>
+<ul class="footer-links">
+<li><a href="https://colab.research.google.com">Google Colab</a></li>
+<li><a href="https://www.kaggle.com">Kaggle</a></li>
+<li><a href="https://jupyter.org">Jupyter Notebook</a></li>
+<li><a href="https://orangedatamining.com">Orange</a></li>
+<li><a href="https://rapidminer.com">RapidMiner</a></li>
+<li><a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka</a></li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+<h5 class="footer-title">Quick Links</h5>
+<ul class="footer-links">
+<li><a href="#tools">Tools</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#comparison">Comparison</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-6">
+<h5 class="footer-title">Newsletter</h5>
+<p>Subscribe for updates on free data science tools.</p>
+<div class="footer-newsletter mt-4">
+<div class="input-group">
+<input class="form-control" placeholder="Your email" required="" type="email"/>
+</div>
+<div class="input-group mt-4">
+<button class="btn" type="submit">Subscribe</button>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom text-center">
+<div class="row">
+<div class="col-md-6 text-md-start mb-3 mb-md-0">
+<p>© 2026 DesignHub. All rights reserved.</p>
+</div>
+<div class="col-md-6 text-md-end">
+<a class="text-light me-3" href="./pages/privacy-policy.html">Privacy Policy</a>
+<a class="text-light me-3" href="./pages/terms-of-service.html">Terms of Service</a>
+<a class="text-light" href="./pages/cookie-policy.html">Cookie Policy</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<a class="back-to-top" href="#"><i class="fas fa-arrow-up"></i></a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./javascript/designhub.js"></script>
+</body>
+</html>
