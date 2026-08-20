@@ -199,3 +199,15 @@ Content-only decisions: update LinkedIn Learning counts and access language, cor
 [Quizlet upgrade](https://quizlet.com/upgrade) currently shows Quizlet Plus limits such as 3 practice tests, 20 Learn rounds, and 3 textbook solutions per month on one paid tier; Plus Unlimited removes those limits. Annual plans can include a 7-day trial and free access/features vary by account and plan. Claims of unlimited free practice or free textbook solutions are inaccurate.
 
 [Forest](https://www.forestapp.cc/) should be described as a focus-timer/productivity aid rather than an evidence-based learning method or guaranteed distraction blocker. Current content decisions: correct Todoist free limits and calendar wording, Notion Education eligibility and offline scope, Anki synchronization and inactivity caveats, Quizlet free/paid study-mode limits, Forest claims, comparison rows, FAQs, spotlight copy, and footer labels while preserving original elements, classes, IDs, nesting, CSS, JavaScript, and layout.
+
+## TransLingua audit — 2026-08-20
+
+[Google Translate official features](https://translate.google.com/about/) confirms camera translation, downloaded languages for offline use, conversation mode, speech transcription, tap-to-translate, handwriting, saved translations, document translation, and website translation. Availability and quality vary by language, device, and mode; avoid stale fixed language counts unless tied to a dated official source.
+
+[DeepL Pro](https://www.deepl.com/en/pro) currently positions DeepL across text translation, document translation, DeepL Write, DeepL Voice, API, integrations, glossaries, and business/enterprise workflows. Pro is a paid service with free access/trial boundaries; document format, language, glossary, and plan support should not be presented as universal. Privacy/security claims should point to the current trust and privacy documentation.
+
+[Microsoft Translator](https://www.microsoft.com/en-us/translator/) currently lists personal translation for real-time conversations, menus/signs, offline use, websites, and documents; business text/speech APIs are part of Azure AI Services; education support includes live captioning and cross-language classroom understanding. API access and personal-app features are distinct.
+
+[Papago](https://papago.naver.com/) currently exposes text, image, document, voice, and website translation modes; Papago Plus is shown as a separate offering. Coverage varies by language pair, so fixed claims such as 100+ languages are not appropriate without a specific current official source.
+
+Current content decisions: retain workflow-first guidance and human review for high-stakes content; replace fixed language-count badges with mode/coverage caveats; correct Google Translate metrics and feature wording; distinguish DeepL free/Pro, document, glossary, Voice, and API scope; distinguish Microsoft personal, education, and Azure business services; update Papago labels and remove unsupported fixed language counts; correct comparison rows, privacy guidance, FAQs, and footer links while preserving original elements, classes, IDs, nesting, CSS, JavaScript, and layout.
