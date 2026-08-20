@@ -161,3 +161,15 @@ The current official [Duolingo course selector](https://www.duolingo.com/courses
 [Anki](https://apps.ankiweb.net/) describes free AnkiWeb synchronization, media support, customizable review timing, add-ons, shared decks, and free desktop software. It states that official iOS AnkiMobile is paid and AnkiDroid is free; access is platform-dependent. The portal should remove unsupported fixed language-count claims and distinguish spaced-repetition scheduling from a complete language course.
 
 Content-only decisions: refresh platform badges and descriptions, remove stale fixed language counts and unsupported claims about Babbel/Busuu certifications or speaking features, correct comparison rows, update the Duolingo spotlight to avoid the old 500M/40+ claims and fluency guarantee, clarify paid/free boundaries, update FAQs, and preserve all original elements, classes, IDs, nesting, CSS, JavaScript, and layout.
+
+## MathMinds audit — 2026-08-20
+
+[Desmos](https://www.desmos.com/) currently presents free math tools including Graphing, Scientific, Four Function, Notebook (beta), Matrix, Geometry, and 3D. Its site describes Geometry as a native construction and transformation tool and positions Amplify Classroom as a separate teaching and learning platform. Content should avoid calling every Desmos feature or classroom capability universally free, and should not claim that the product is simply one calculator.
+
+[GeoGebra](https://www.geogebra.org/) currently offers free calculators and apps, resources curated for Grades 4–12, classroom collaboration, LMS integration, and a Math Solver that provides step-by-step solutions and similar-problem practice. The portal should distinguish free calculators/resources from classroom workflows and avoid unsupported claims about exam use or universal platform behavior.
+
+[Khan Academy Math](https://www.khanacademy.org/math) remains a structured, free math-learning resource with scaffolded practice and mastery-oriented progression, but dynamic pages may not expose a stable universal course list. Content should describe broad pathways rather than promise all topics or identical mastery features everywhere.
+
+[Wolfram|Alpha](https://www.wolframalpha.com/) currently describes computational answers across elementary math, algebra, graphs, calculus, geometry, differential equations, and statistics, with step-by-step solutions and Pro/mobile offerings. It should be framed as a computational checking and explanation aid, not a substitute for showing assumptions or reasoning; premium features and answer depth vary by product/plan.
+
+Content-only decisions: correct Desmos feature and pricing language, update GeoGebra and Khan Academy descriptions, replace the outdated Wolfram|Alpha games badge and comparison claims, remove Mathway as a stale/unsupported recommendation, update the puzzle/AI/step-by-step feature copy to responsible practice guidance, refresh the Desmos spotlight and FAQ, and preserve all original elements, classes, IDs, nesting, CSS, JavaScript, and layout.
