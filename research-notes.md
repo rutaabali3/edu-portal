@@ -149,3 +149,15 @@ Sources reviewed:
 - The Rust Programming Language: https://doc.rust-lang.org/book/ — official book currently assumes Rust 1.90.0+ and Rust 2024 Edition; covers ownership, borrowing, structs, enums, modules, collections, error handling, generics, testing, smart pointers, concurrency, and idiomatic Rust; online and offline access are available, with an interactive Brown University version linked separately.
 
 Content-only decisions: correct the JavaScript and Java badge mismatches, remove unsupported certification claims, clarify official docs versus community examples, update Python tutorial audience and access wording, update Rust version/edition wording, correct comparison-table columns and outdated rows, and refresh the Python spotlight and FAQs. Preserve all original elements, classes, IDs, nesting, CSS, JavaScript, and layout.
+
+## LangQuest audit — 2026-08-20
+
+The current official [Duolingo course selector](https://www.duolingo.com/courses) is dynamic and lists courses by learner language; it should not be represented with a fixed universal language count. Duolingo's official [Super page](https://www.duolingo.com/super) describes paid features that remove ads and support offline learning, so the portal should distinguish the free service from optional paid tiers and avoid claiming every feature is free.
+
+[Memrise](https://www.memrise.com/) currently describes useful words and phrases, native-speaker videos, pronunciation, verb conjugation, sentence building, listening, and AI speaking practice. Its official page says learners can start for free and paid plans unlock extra features; it also markets exam practice and real-world use cases. The portal should avoid a fixed language-count badge and avoid guaranteeing fluency or rapid speaking outcomes.
+
+[HelloTalk](https://www.hellotalk.com/en) currently advertises language exchange through text, voice, video, Voicerooms, Livestreams, translation, pronunciation, transliteration, and corrections. Its page reports 70M+ learners, 200+ countries and regions, and 260+ languages; these are platform claims that can change, so they should be labeled as current site claims rather than permanent facts. Safety and privacy guidance remain important for exchange platforms.
+
+[Anki](https://apps.ankiweb.net/) describes free AnkiWeb synchronization, media support, customizable review timing, add-ons, shared decks, and free desktop software. It states that official iOS AnkiMobile is paid and AnkiDroid is free; access is platform-dependent. The portal should remove unsupported fixed language-count claims and distinguish spaced-repetition scheduling from a complete language course.
+
+Content-only decisions: refresh platform badges and descriptions, remove stale fixed language counts and unsupported claims about Babbel/Busuu certifications or speaking features, correct comparison rows, update the Duolingo spotlight to avoid the old 500M/40+ claims and fluency guarantee, clarify paid/free boundaries, update FAQs, and preserve all original elements, classes, IDs, nesting, CSS, JavaScript, and layout.
