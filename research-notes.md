@@ -1,0 +1,95 @@
+# Edu Portal Research Notes
+
+## CodeQuest (reviewed August 2026)
+
+- freeCodeCamp official homepage: https://www.freecodecamp.org/ — states that the platform offers free programming, DevOps, cybersecurity, AI engineering, and English-for-developers learning; recommended curriculum includes Responsive Web Design, JavaScript, Front-End Development Libraries, Python, Relational Databases, Back-End Development and APIs, and Certified Full-Stack Developer; its FAQ states courses, projects, and certifications are free.
+- Codecademy pricing: https://www.codecademy.com/pricing — Basic is listed as $0 and always free, with basic course material, community support, learning resources, and limited practice; full course access, projects, paths, certificates, and expanded AI assistance vary by paid plan.
+- GitHub Codespaces: https://github.com/features/codespaces — GitHub describes cloud-hosted development environments, browser/local IDE access, and a Free-account quota of 120 core hours or 60 hours on a 2-core codespace plus 15 GB storage per month; quotas and pricing can change.
+- MDN Learn Web Development: https://developer.mozilla.org/en-US/docs/Learn_web_development — structured getting-started, core, and extension modules with challenges and MDN Playground; page says last updated August 2025.
+- GitHub Skills: https://skills.github.com/ — search result and official GitHub documentation identify free interactive courses with automated feedback for GitHub workflows.
+- The Odin Project: https://www.theodinproject.com/ — search result states its full-stack curriculum is free and supported by an open-source community.
+
+## AlgoForge (reviewed August 2026)
+
+- VisuAlgo: https://visualgo.net/en — official page describes animation-based visualizations and training/quizzes. It lists 24 visualization modules, including arrays, sorting, linked lists, heaps, hash tables, BST/AVL, graphs, union-find, Fenwick/segment trees, recursion, graph traversal, shortest paths, MST, flows, matching, strings, geometry, and NP-complete reductions. It notes a mobile lite version and recommends a 1366x768 desktop experience for intricate visualizations.
+- CP-Algorithms: https://cp-algorithms.com/ — official site describes itself as a volunteer-run, ad-free resource. Coverage includes algebra, data structures, dynamic programming, string processing, geometry, graphs, flows, matchings, and advanced techniques. The page reports a last update of April 17, 2024 and a later changelog entry for an August 2025 donation-system overhaul.
+- USACO Guide: https://usaco.guide/ — official page describes a free curated roadmap from Bronze to Platinum and beyond, with topic resources, extensive problemsets, progress tracking, a forum, and an associated USACO IDE. It explicitly says it is not an official USACO syllabus.
+- CSES Problem Set: https://cses.fi/problemset/ — official problem set is categorized into introductory problems, sorting/searching, dynamic programming, graph algorithms, range queries, tree algorithms, mathematics, string algorithms, geometry, advanced techniques, interactive problems, and more.
+- LeetCode Problem Set: https://leetcode.com/problemset/ — linked as a current practice source; AlgoForge labels it free tier and recommends selective interview-pattern practice rather than volume claims.
+- MIT OpenCourseWare algorithms search: https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&q=algorithms — linked as an optional lecture-level theory companion.
+
+## Implementation decisions
+
+- CodeQuest was replaced first with a compact 2026-oriented page using official-source links, explicit access labels, a roadmap, comparison table, FAQ, accessible navigation, responsive CSS, and a back-to-top interaction.
+- AlgoForge was replaced second with the same verified visual system, but with algorithm-specific roadmap and research-backed resources.
+- Both pages use Bootstrap 5.3.3, Font Awesome 6.5.2, Google Fonts, local CSS/JS, external links with target=_blank and rel=noopener, and reduced-motion CSS support.
+
+## CodeCrafter (reviewed August 2026)
+
+Official Replit pages ([homepage](https://replit.com/) and [pricing](https://replit.com/pricing)) describe a browser-first platform with Agent, database, publishing, integrations, and team support. The current Starter plan is free with daily Agent credits, a built-in database, and up to one published project; Core is listed at $20/month billed annually with $25 monthly credits, up to five collaborators, and two parallel agents; Pro is listed at $95/month billed annually with $100 monthly credits, up to fifteen collaborators, and ten parallel agents. Pricing and credits are subject to change.
+
+GitHub's [Codespaces product page](https://github.com/features/codespaces) describes secure, fully configured cloud development environments native to GitHub, accessible from a browser or local IDE. It supports repository and pull-request entry points, port forwarding, and repeatable dev-container configuration. GitHub states that personal Free accounts include 120 core hours, equivalent to 60 hours on a 2-core codespace, plus 15 GB storage per month; usage beyond quota is pay-as-you-go.
+
+The official [StackBlitz page](https://stackblitz.com/) describes WebContainers as a WebAssembly-based environment that runs Node.js inside the browser, with compute occurring in the browser and fast startup. The refreshed page therefore labels StackBlitz as a public/free web-focused option rather than making broad private-team or language-support claims.
+
+The refreshed CodeCrafter page also links official [VS Code](https://code.visualstudio.com/) and [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) pages as local pair-programming alternatives.
+
+## DataLearn (reviewed August 2026)
+
+Google's [Colab FAQ](https://research.google.com/colaboratory/faq.html) describes Colab as a hosted Jupyter Notebook service requiring no setup, with free access to compute resources including GPUs and TPUs. It explicitly states that free resources are not guaranteed or unlimited, usage limits fluctuate, runtimes have maximum lifetimes, and virtual machines are deleted after idle periods. Colab notebooks can be stored in Google Drive or loaded from GitHub, and sharing exposes notebook text, code, output, and comments rather than the temporary VM state.
+
+Kaggle's official [Notebook documentation](https://www.kaggle.com/docs/notebooks) describes a cloud computational environment for reproducible and collaborative analysis. Kaggle supports Python and R notebooks and scripts, public datasets and competitions, versioned outputs, data-source attachment, and community discovery of public notebooks.
+
+Project Jupyter's [official documentation](https://docs.jupyter.org/en/latest/) defines notebooks as shareable documents combining code, plain-language descriptions, equations, rich visualizations, and interactive controls. It distinguishes lightweight Jupyter Notebook from feature-rich, tabbed JupyterLab and emphasizes interactive computing, prototyping, explanation, exploration, and sharing.
+
+Orange's [official homepage](https://orangedatamining.com/) describes open-source machine learning and data visualization, visual programming through connected widgets, interactive statistical plots, decision trees, clustering, projections, and extensions for NLP, network analysis, association rules, time series, survival analysis, and genomics. The page lists Orange 3.40.0 dated May 8, 2026.
+
+DataLearn was replaced with a current evidence-first learning workflow, explicit free/limited labels, and official links to Colab, Kaggle, Jupyter, Orange, scikit-learn, and Observable. It avoids promising unlimited free GPU/TPU access.
+
+## DesignHub (reviewed August 2026)
+
+Figma's [official pricing page](https://www.figma.com/pricing/) currently lists a free Starter plan with unlimited drafts, UI kits/templates, and limited AI credits; Professional, Organization, and Enterprise plans add expanded files, libraries, prototyping, Dev Mode, administration, and seat-based collaboration. The refreshed portal avoids the stale claim of unlimited free teammates and instead labels Figma as free plus paid with plan-dependent limits.
+
+Penpot's [official homepage](https://penpot.app/) and [features page](https://penpot.app/features) describe an open-source, browser-based platform for design and code collaboration. Current capabilities include responsive and rules-based UI design, CSS Grid and Flex layouts, interactive prototypes, real-time multiplayer collaboration, comments, design tokens, shared libraries, code inspection, and open standards such as CSS, HTML, SVG, and JSON. Penpot offers free signup and a self-host option.
+
+Canva's [official pricing page](https://www.canva.com/en/pricing/) lists a Free plan with a drag-and-drop editor, 1,000+ design types, 1.6M+ templates, 4.7M+ assets, 5GB cloud storage, and limited AI allowance. Pro and Business add premium content, larger storage, collaboration/admin features, and higher AI allowances. The refreshed portal positions Canva as fast visual communication rather than a complete replacement for product UI design.
+
+The refreshed DesignHub also links official [FigJam](https://www.figma.com/figjam/) and [W3C WCAG guidance](https://www.w3.org/WAI/standards-guidelines/wcag/) and replaces the stale InVision, Lunacy, and Gravit Designer recommendations with current, better-supported alternatives.
+
+## EcoLearn (reviewed August 2026)
+
+NASA's [Climate Kids resource page](https://www.nasa.gov/stem-content/nasa-climate-kids/) identifies students in grades K–4 and 5–8 as the audience and lists hands-on activities, interactive multimedia, play-and-learn content, articles, videos, and websites. It says the resource explains climate science through NASA missions studying Earth. The page was last updated April 28, 2026.
+
+The UN Climate Change Learning Partnership ([UN CC:Learn](https://unccelearn.org/)) currently lists learning tracks in climate change, green economy, and circular economy. Its catalog includes self-paced and moderated courses, and shows certification terms per course; some certificates are free while others have fees. The site reports 144 courses, more than 1.3 million users, and more than 680,000 certificates at the time of review.
+
+National Geographic Education ([education.nationalgeographic.org](https://education.nationalgeographic.org/)) offers free maps, videos, interactives, live events, and other resources with filters for grade bands, geography, social studies, and biology.
+
+NASA's [Earth for Kids](https://science.nasa.gov/kids/earth/) provides age-friendly material on the greenhouse effect, carbon cycle, climate change, and ocean-climate connections. The refreshed EcoLearn page also links [CitizenScience.gov](https://www.citizenscience.gov/) and NASA Climate as next-step sources, and avoids unsupported claims about universal carbon calculators, VR field trips, or unlimited platform access.
+
+## LangLab (reviewed August 2026)
+
+The current official [Python tutorial](https://docs.python.org/3/tutorial/index.html) describes Python as a high-level language with freely available interpreter and standard library, and covers interpreter use, control flow, data structures, modules, I/O, errors, classes, standard library topics, virtual environments, and packages. The documentation page was last updated August 20, 2026 during review.
+
+[MDN's JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) currently covers grammar and types, control flow, functions, objects, classes, promises, typed arrays, iterators and generators, resource management, internationalization, modules, and advanced topics. The refreshed page uses MDN as the maintained web-language reference rather than promising a generic interactive playground.
+
+[dev.java Learn](https://dev.java/learn/) provides current material for first applications, JShell, IDE workflows, Java language basics, records, generics, lambdas, collections, streams, virtual threads, modules, JVM tools, and current Java specifications. [The Rust Book](https://doc.rust-lang.org/book/) states that its current text assumes Rust 1.90.0 or later and the 2024 edition, and covers ownership, borrowing, error handling, generics, testing, smart pointers, concurrency, and idiomatic Rust.
+
+## LangQuest (reviewed August 2026)
+
+[Duolingo's official course page](https://www.duolingo.com/courses) provides current language-course selection but does not support the older static claim of a fixed universal language count in the refreshed portal. [Memrise](https://www.memrise.com/) says learners can start for free, with paid plans unlocking extra features; current features include useful phrases, native-speaker videos, pronunciation, sentence building, listening, and AI speaking practice. [HelloTalk](https://www.hellotalk.com/en) currently supports language exchange through text, voice, video, Voicerooms, translation, pronunciation, transliteration, and corrections, and says users can practice 260+ languages. [Anki](https://apps.ankiweb.net/) describes spaced-repetition scheduling, free AnkiWeb synchronization, media support, add-ons, and platform-specific desktop/mobile availability. The refreshed LangQuest page labels access as free, paid, or platform-dependent rather than claiming every feature is free.
+
+## MathMinds (reviewed August 2026)
+
+[Desmos](https://www.desmos.com/) currently offers free Graphing, Scientific, Four Function, Notebook beta, Matrix, Geometry, and 3D tools, plus interactive examples and classroom-related offerings. [GeoGebra](https://www.geogebra.org/) describes free calculators and resources for grades 4–12 across number sense, operations, algebra, measurement, geometry, probability, and statistics, with classroom collaboration and a math solver. [Khan Academy Math](https://www.khanacademy.org/math) offers free courses from early math and grade-level foundations through algebra, geometry, trigonometry, statistics, and calculus, with practice and progress features. [Wolfram|Alpha](https://www.wolframalpha.com/) provides computational answers across elementary math, algebra, graphing, calculus, geometry, differential equations, and statistics; step-by-step features may depend on product tier. The refreshed MathMinds page emphasizes visualization and verification instead of claiming that solver output replaces mathematical reasoning.
+
+## SkillSpark (reviewed August 2026)
+
+[LinkedIn Learning](https://www.linkedin.com/learning/) currently advertises 26,100 courses, role guides, 1,300+ curated pathways, quizzes, exercise files, coding environments, and professional certificates; guest access highlights a free trial, so the refreshed portal labels it trial plus paid rather than free. [Grow with Google Career Certificates](https://grow.google/certificates) currently lists foundational certificates in cybersecurity, data analytics, digital marketing and e-commerce, IT support, project management, and UX design, plus advanced data analytics, business intelligence, and IT automation with Python. It states programs are self-paced, generally 3–6 months at under 10 hours per week, and no experience is necessary for foundational programs; outcome statistics are presented as claims with stated methodology, not guarantees. [Indeed Career Guide](https://www.indeed.com/career-advice) currently provides free editorial guidance across job search, resumes, cover letters, interviews, networking, professional skills, certifications, and career changes. The refreshed SkillSpark page distinguishes learning, credentials, portfolio evidence, and job-search guidance.
+
+## StudyForge (reviewed August 2026)
+
+[Todoist](https://www.todoist.com/) currently supports natural-language task capture, Today/Upcoming views, due dates, recurring tasks, filters, calendar planning, team spaces, and education templates; it starts for free, with paid tiers and feature limits. [Notion for Education](https://www.notion.com/product/notion-for-education) offers student planner, notes, projects, calendars, websites, job applications, and student-organization workflows; its free Education Plus plan is for eligible higher-education students and educators with institution email verification, while K–12 eligibility differs. [Anki](https://apps.ankiweb.net/) provides spaced-repetition reviews, media support, customizable cards, add-ons, and free AnkiWeb synchronization, with desktop/mobile availability varying by platform. [Quizlet](https://quizlet.com/) currently supports flashcards, study guides, practice tests, games, and material generation from notes or recordings; some features depend on account or plan. The refreshed StudyForge page frames tools around capture, scheduling, and retrieval rather than claiming every feature is free.
+
+## TransLingua (reviewed August 2026)
+
+[Google Translate](https://translate.google.com/about/) currently advertises camera translation, downloadable offline languages, conversations, speech transcription, copy-to-translate, handwriting, saved translations, document translation, and website translation; exact support varies by language and platform. [DeepL document translation](https://www.deepl.com/en/features/document-translation) currently supports major formats including PDF, Word, PowerPoint, Excel, HTML, TXT, SRT, and more, with over 100 languages advertised for file translation and paid customization/security workflows. [Microsoft Translator](https://www.microsoft.com/en-us/translator/) currently supports real-time conversations, menus and signs, offline use, websites, documents, education live captioning, and business translation through Azure AI Services. [Papago](https://papago.naver.com/) currently exposes text, image, document, voice, and website modes through its web interface, plus dictionary support. The refreshed TransLingua page avoids unsupported fixed language-count claims and emphasizes privacy, human review, and context-sensitive verification.
